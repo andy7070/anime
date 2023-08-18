@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+
+
+@media screen and (max-width: 768px) {
+   
+    *{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    height: 100vh;
+    background: #202020;
+}
+
+
+    header{
+      height: 400px;
+      background-image: url(/projeto-anime/imagens/img610069466521e6.83883645.jpg);
+       }
+       
+      #menu-burguer{
+    font-size: 2rem;
+color: white;}
+
+    #menu-burguer:hover{
+    cursor: pointer;
+    color: rgb(25, 177, 25);
+      }
+
+    header nav ul {
+    display: none;
+    list-style: none;
+    transition: 1s ease-in-out;
+    border: 2px solid rgb(25, 177, 25);
+    width: 100px;
+    border-radius: 10px;
+    
+    }
+    header nav ul li {
+    padding: 10px 5px;
+    color: rgb(25, 177, 25);
+    
+}
+header nav ul li:hover{
+  color: white;}
+
+a{
+  text-decoration: none;}
+
+
+
+
+}
