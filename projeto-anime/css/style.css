@@ -23,7 +23,7 @@ body{
        }
        
       #menu-burguer{
-    font-size: 2rem;
+    font-size: 3rem;
 color: white;}
 
     #menu-burguer:hover{
@@ -35,13 +35,13 @@ color: white;}
     display: none;
     list-style: none;
     transition: 1s ease-in-out;
-    border: 2px solid rgb(25, 177, 25);
-    width: 100px;
+    width: 200px;
     border-radius: 10px;
     
     }
     header nav ul li {
     padding: 10px 5px;
+    font-size: 2rem;
     color: rgb(25, 177, 25);
     
 }

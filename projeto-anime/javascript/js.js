@@ -7,7 +7,7 @@ teste.style.display = ' block'}else {
 
 teste.style.display = ' none'}
 
-display.style.transform = translateX(30)
+display.style.transition = '7s ease-in-out'
 
 
 }
