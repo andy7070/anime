@@ -27,7 +27,7 @@
 .botao-header:hover{
 border: 2px solid white;}
     header h1{
-    color: white;}
+    color: greenyellow;}
    
   header div {
    margin: 0 50px;}
@@ -40,8 +40,12 @@ background: #1a1a1a;}
 #animes li{
  list-style: none;
  color: white;
- font-size: 1.8rem;
+ font-size: 1.3rem;
 padding: 10px 20px;}
+
+#animes a {
+text-decoration: none;
+color: white;}
 
 #animes2{
 display: none;
@@ -52,18 +56,21 @@ display: none;
  color: white;
  font-size: .90rem;
 padding: 10px 20px;
+border: 2px solid #202020;
 }
 
+#animes2 a{
+text-decoration: none;
+color: white;}
+#animes2 a:hover{
+color: greenyellow;}
+
 #seta-menu{
-font-size: 1.2rem;
-cursor: pointer;}
+font-size: .90rem;
+cursor: pointer;
+padding-left: 5px;}
 
 #seta-menu:hover{
 transform: translateX(2px);}
 
-a{
-text-decoration: none;
-color: white;}
 
-a:hover{
- color: rgba(121, 120, 120, 0.575);}
