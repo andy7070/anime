@@ -159,18 +159,38 @@ height: 2px;}
 .container{
     display: flex;
     width:  389px;
-    height: 270px;
+    height: 300px;
     overflow: hidden;
-    transition: 1s ease-in-out;
+     
+    
     transform: translateX(0);
 }
 .slider{
 display: flex;
 justify-content: space-between;
-transition: 1s ease-in-out;
-transform: translateX(0);}
+transform: translateX(0);
+transition: 1s ease-in-out;}
 
 
 .slider img{
 width: 195px;}
 
+.descriçao{
+color: white;
+position: absolute;
+font-size: .65rem;
+text-align: center;
+bottom: 0;
+text-align: center;
+padding-left: 5px;
+border: 2px solid transparent;
+background: rgba(0, 0, 0, 0.616);}
+.descriçao h3{
+text-align: center;
+margin: auto;}
+
+.conteudo{
+    display: flex;
+    overflow: hidden;
+    width:  195px;
+    height: 300px;}
