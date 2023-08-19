@@ -5,7 +5,9 @@
 
 
 @media screen and (max-width: 768px) {
-   
+    
+    body{
+    background: rgba(10, 9, 9, 0.678);}
     *{
     margin: 0;
     padding: 0;
@@ -29,6 +31,7 @@
 .botao-header:hover{
 color: white;}
     header h1{
+        font-size: 1.4rem;
     color: greenyellow;}
    
   header div {
@@ -42,7 +45,7 @@ background: #1a1a1a;}
 #animes li{
  list-style: none;
  color: white;
- font-size: 1.3rem;
+ font-size: 1rem;
 padding: 10px 20px;}
 
 #animes a {
@@ -57,7 +60,7 @@ list-style: none;
 #animes2 li{
     list-style: none;
  color: white;
- font-size: .90rem;
+ font-size: .70rem;
 padding: 10px 20px;
 border: 2px solid #202020;
 }
@@ -85,10 +88,58 @@ list-style: none;}
 #animes3 li{
     list-style: none;
     color: white;
-    font-size: .90rem;
+    font-size: .70rem;
    padding: 10px 20px;
    border: 2px solid #202020;
 }
 
 #animes3 a:hover{
  color: greenyellow;}
+
+ #animes4{
+display: none;
+ list-style: none;}
+
+ #animes4 li{
+    list-style: none;
+    color: white;
+    font-size: .70rem;
+   padding: 10px 20px;
+   border: 2px solid #202020;
+}
+
+#animes4 a:hover{
+color: greenyellow;}
+
+#animes5{
+display: none;
+list-style: none;}
+
+#animes5{
+   color: white;
+font-size: .70rem;
+padding: 10px 20px;
+border: 2px solid #202020;}
+
+#animes5 a:hover{
+color: greenyellow;}
+
+#animes6{
+display: none;
+list-style: none;}
+
+#animes6 li {
+    color: white;
+    font-size: .70rem;
+    padding: 10px 20px;
+    border: 2px solid #202020;
+}
+#animes6 a:hover{
+color: greenyellow;}
+
+.cadas a{
+text-decoration: none;
+font-size: 1.1rem;}
+
+.cadas a:hover{
+color: greenyellow;}

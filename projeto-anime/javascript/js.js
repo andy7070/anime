@@ -17,3 +17,20 @@ if(animes3.style.display == 'none'){
 animes3.style.display = 'none'}}
 
 
+function clickMenu4(){
+if(animes4.style.display == 'none'){
+animes4.style.display = 'block'}else{
+ animes4.style.display = ' none'}}
+
+ function clickMenu5(){
+if(animes5.style.display == 'none'){
+ animes5.style.display = 'block' }else{
+  animes5.style.display = 'none' }
+}
+
+
+function clickMenu6(){
+ if(animes6.style.display == 'none'){
+   animes6.style.display= 'block'}else{
+  animes6.style.display = 'none'}}
+
