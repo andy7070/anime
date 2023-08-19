@@ -27,6 +27,7 @@
     }
 
     .botao-header{
+        padding-right: 20px;
      font-size: 2rem;
     cursor: pointer;
     color: greenyellow;
@@ -142,6 +143,5 @@ list-style: none;}
 #animes6 a:hover{
 color: greenyellow;}
 
-
-#testando{
-transition: 5s;}
+li a:hover{
+color: greenyellow;}
