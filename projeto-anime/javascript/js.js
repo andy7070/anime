@@ -1,13 +1,17 @@
-
-let display = document.getElementById('teste')
-
 function clickMenu(){
-if(teste.style.display == 'none'){
-teste.style.display = ' block'}else {
-
-teste.style.display = ' none'}
-
-display.style.transition = '7s ease-in-out'
-
-
+if(animes.style.display == 'none'){
+  animes.style.display = 'block'
+} else {
+  animes.style.display = 'none'
 }
+ 
+}
+
+
+
+function clickMenu2(){
+if(animes2.style.display == 'none'){
+animes2.style.display = 'block'}else{
+animes2.style.display = 'none'}}
+
+

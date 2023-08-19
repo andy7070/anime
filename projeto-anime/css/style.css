@@ -8,50 +8,62 @@
     *{
     margin: 0;
     padding: 0;
-    
-}
-
-body{
-    height: 100vh;
-    background: #202020;
-}
-
+    }
 
     header{
-      height: 400px;
-      background-image: url(/projeto-anime/imagens/img610069466521e6.83883645.jpg);
-       }
-       
-      #menu-burguer{
-    font-size: 3rem;
-color: white;}
-
-    #menu-burguer:hover{
-    cursor: pointer;
-    color: rgb(25, 177, 25);
-      }
-
-    header nav ul {
-    display: none;
-    list-style: none;
-    transition: 1s ease-in-out;
-    width: 200px;
-    border-radius: 10px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: black;
     }
-    header nav ul li {
-    padding: 10px 5px;
-    font-size: 2rem;
-    color: rgb(25, 177, 25);
-    
+
+    .botao-header{
+     font-size: 2rem;
+    cursor: pointer;
+    color: white;
 }
-header nav ul li:hover{
-  color: white;}
+
+.botao-header:hover{
+border: 2px solid white;}
+    header h1{
+    color: white;}
+   
+  header div {
+   margin: 0 50px;}
+
+#animes{
+ display: none;
+background: #1a1a1a;}
+} 
+
+#animes li{
+ list-style: none;
+ color: white;
+ font-size: 1.8rem;
+padding: 10px 20px;}
+
+#animes2{
+display: none;
+}
+
+#animes2 li{
+    list-style: none;
+ color: white;
+ font-size: .90rem;
+padding: 10px 20px;
+}
+
+#seta-menu{
+font-size: 1.2rem;
+cursor: pointer;}
+
+#seta-menu:hover{
+transform: translateX(2px);}
 
 a{
-  text-decoration: none;}
+text-decoration: none;
+color: white;}
 
-
-
-
-}
+a:hover{
+ color: rgba(121, 120, 120, 0.575);}
