@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 
@@ -8,6 +9,7 @@
     *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
     }
 
     header{
@@ -21,11 +23,11 @@
     .botao-header{
      font-size: 2rem;
     cursor: pointer;
-    color: white;
+    color: greenyellow;
 }
 
 .botao-header:hover{
-border: 2px solid white;}
+color: white;}
     header h1{
     color: greenyellow;}
    
@@ -49,6 +51,7 @@ color: white;}
 
 #animes2{
 display: none;
+list-style: none;
 }
 
 #animes2 li{
@@ -65,12 +68,27 @@ color: white;}
 #animes2 a:hover{
 color: greenyellow;}
 
-#seta-menu{
+.seta-menu{
+    color: greenyellow;
 font-size: .90rem;
 cursor: pointer;
 padding-left: 5px;}
 
-#seta-menu:hover{
-transform: translateX(2px);}
+.seta-menu:hover{
+transform: translate(5px);}
 
 
+#animes3{
+display: none;
+list-style: none;}
+
+#animes3 li{
+    list-style: none;
+    color: white;
+    font-size: .90rem;
+   padding: 10px 20px;
+   border: 2px solid #202020;
+}
+
+#animes3 a:hover{
+ color: greenyellow;}
