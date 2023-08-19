@@ -16,7 +16,6 @@
     }
     header div img{
     width: 80px;
-   
     }
     header{
     display: flex;
@@ -24,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     background: black;
+   
     }
 
     .botao-header{
@@ -31,6 +31,7 @@
      font-size: 2rem;
     cursor: pointer;
     color: greenyellow;
+    padding: 10px 20px;
 }
 
 .botao-header:hover{
@@ -50,8 +51,9 @@ background: #1a1a1a;}
  list-style: none;
  color: white;
  font-size: 1rem;
-padding: 10px 20px;
-transition:1s;}
+padding: 10px 20px;}
+
+
 
 #animes a {
 text-decoration: none;
