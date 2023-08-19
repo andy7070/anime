@@ -13,12 +13,13 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     }
+    header div img{
+    width: 150px;}
 
     header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 100px;
     background: black;
     }
 
@@ -31,7 +32,7 @@
 .botao-header:hover{
 color: white;}
     header h1{
-        font-size: 1.4rem;
+        font-size: 1rem;
     color: greenyellow;}
    
   header div {
@@ -137,17 +138,3 @@ list-style: none;}
 #animes6 a:hover{
 color: greenyellow;}
 
-.cadastrar-logar{
-list-style: none;
-background: #1a1a1a;}
-.cadastrar-logar li{
-   font-size: 1.2rem;
-padding: 10px 20px;
-color: white;}
-
-.cadastrar-logar a{
- text-decoration: none;
-color: white;}
-
- .cadastrar-logar a:hover{
- color: greenyellow;}
