@@ -115,7 +115,7 @@ color: greenyellow;}
 display: none;
 list-style: none;}
 
-#animes5{
+#animes5 li{
    color: white;
 font-size: .70rem;
 padding: 10px 20px;
@@ -137,9 +137,17 @@ list-style: none;}
 #animes6 a:hover{
 color: greenyellow;}
 
-.cadas a{
-text-decoration: none;
-font-size: 1.1rem;}
+.cadastrar-logar{
+list-style: none;
+background: #1a1a1a;}
+.cadastrar-logar li{
+   font-size: 1.2rem;
+padding: 10px 20px;
+color: white;}
 
-.cadas a:hover{
-color: greenyellow;}
+.cadastrar-logar a{
+ text-decoration: none;
+color: white;}
+
+ .cadastrar-logar a:hover{
+ color: greenyellow;}
