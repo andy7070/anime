@@ -20,7 +20,7 @@
     }
     header{
     display: flex;
-    padding: 0;
+    padding: 0 15px;
     justify-content: space-between;
     align-items: center;
     background: black;
@@ -37,7 +37,7 @@
 color: white;}
     header h1{
         text-align: center;
-        font-size: 1rem;
+        font-size: .90rem;
     color: greenyellow;}
     
 
