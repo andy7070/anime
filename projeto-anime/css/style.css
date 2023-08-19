@@ -148,8 +148,13 @@ li a:hover{
 color: greenyellow;}
 
 section h2 {
-    color: white;
+    padding: 20px 20px;
+    color: greenyellow;
 text-align: center;}
+
+section h2::before{
+width: 200px;
+height: 2px;}
 
 .container{
     display: flex;
@@ -157,9 +162,11 @@ text-align: center;}
     height: 270px;
     overflow: hidden;
     transition: 1s ease-in-out;
+    transform: translateX(0);
 }
 .slider{
 display: flex;
+justify-content: space-between;
 transition: 1s ease-in-out;
 transform: translateX(0);}
 
