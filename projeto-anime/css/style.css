@@ -21,13 +21,13 @@
     header{
     display: flex;
     padding: 0;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: black;
     }
 
     .botao-header{
-    padding-right: 20px;
+    padding-right: 15px;
      font-size: 2rem;
     cursor: pointer;
     color: greenyellow;
@@ -36,11 +36,10 @@
 .botao-header:hover{
 color: white;}
     header h1{
+        text-align: center;
         font-size: 1rem;
     color: greenyellow;}
-    header div {
-        margin: 0 30px;}
- 
+    
 
 #animes{
  display: none;
