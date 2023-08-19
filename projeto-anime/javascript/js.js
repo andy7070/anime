@@ -3,7 +3,9 @@ if(animes.style.display == 'none'){
   animes.style.display = 'block'
 } else {
   animes.style.display = 'none'
-}}
+}
+
+}
 
 function clickMenu2(){
 if(animes2.style.display == 'none'){
@@ -34,3 +36,6 @@ function clickMenu6(){
    animes6.style.display= 'block'}else{
   animes6.style.display = 'none'}}
 
+  function click(){
+   document.style.transform = 'rotate(90)deg'
+}

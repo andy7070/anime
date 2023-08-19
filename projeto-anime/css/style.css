@@ -8,13 +8,14 @@
     
     body{
     background: rgba(10, 9, 9, 0.678);}
+
     *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     }
     header div img{
-    width: 150px;}
+    width: 110px;}
 
     header{
     display: flex;
@@ -25,6 +26,7 @@
 
     .botao-header{
      font-size: 2rem;
+     transition: .7s ;
     cursor: pointer;
     color: greenyellow;
 }
@@ -40,7 +42,8 @@ color: white;}
 
 #animes{
  display: none;
-background: #1a1a1a;}
+background: #1a1a1a;
+transition: top 1s ;}
 } 
 
 #animes li{
@@ -138,3 +141,6 @@ list-style: none;}
 #animes6 a:hover{
 color: greenyellow;}
 
+
+#testando{
+transition: 5s;}
