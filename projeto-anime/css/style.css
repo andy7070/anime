@@ -186,8 +186,8 @@ padding-left: 5px;
 border: 2px solid transparent;
 background: rgba(0, 0, 0, 0.616);}
 .descriçao h3{
-text-align: center;
-margin: auto;}
+margin: auto;
+padding-left: 3px;}
 
 .conteudo{
     display: flex;
