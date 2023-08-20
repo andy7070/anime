@@ -182,13 +182,13 @@ width: 186px;
 font-size: .65rem;
 text-align: center;
 bottom: 0;
-text-align: center;
 padding-left: 5px;
 border: 2px solid transparent;
 background: rgba(0, 0, 0, 0.616);}
+
 .descriçao h3{
-margin: auto;
-padding-left: 3px;}
+    padding: auto;;
+margin: auto;}
 
 .conteudo{
     display: flex;
