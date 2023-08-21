@@ -157,29 +157,29 @@ width: 200px;
 height: 2px;}
 
 .container{
-    display: flex;
-    width:  370px;
-    height: 280px;
-    overflow: hidden;
-     
     
+    display: flex;
+    width:  360px;
+    height: 300px;
+    overflow: hidden;
     transform: translateX(0);
 }
 .slider{
 display: flex;
-justify-content: space-between;
 transform: translateX(0);
-transition: 1s ease-in-out;}
+transition: 1s ease-in-out;
+padding: 0;
+margin: 0;}
 
 
 .slider img{
-width: 195px;}
+width: 160px;}
 
 
 .descriçao{
 color: white;
 position: absolute;
-width: 186px;
+width: 151px;
 font-size: .65rem;
 text-align: center;
 bottom: 0;
