@@ -147,19 +147,24 @@ color: greenyellow;}
 background: black;
 }
 
-section h2 {
-    padding: 20px 20px;
+.linha  {
+    padding: 10px 20px;
+    align-items: center;
     color: greenyellow;
 text-align: center;}
 
-section h2::before{
-width: 200px;
-height: 2px;}
+.linha::after{
+    content: '';
+    display: inline-block;
+    text-align: center;
+ background: greenyellow;
+    width: 150px;
+    height: 1px;
+   }
 
 .container{
-    
     display: flex;
-    width:  360px;
+    width:  100vw;
     height: 300px;
     overflow: hidden;
     transform: translateX(0);
@@ -168,18 +173,38 @@ height: 2px;}
 display: flex;
 transform: translateX(0);
 transition: 1s ease-in-out;
-padding: 0;
-margin: 0;}
+padding: 0 4px;
+
+}
 
 
 .slider img{
-width: 160px;}
+width: 175px;
+border: 2px solid greenyellow;
+box-shadow: 10px 10px 10px black;
+overflow: hidden;}
+
+.slider-btn{
+color: white;
+background: rgba(0, 0, 0, 0.733);
+margin: 0 10px;
+padding: 0 10px;
+font-size: 3rem;
+text-align: center;
+position: relative;
+bottom: 190px;}
+
+.navegaçao{
+display: flex;
+text-align: center;
+justify-content: space-between;
+align-items: center;}
 
 
 .descriçao{
 color: white;
 position: absolute;
-width: 151px;
+width: 171px;
 font-size: .65rem;
 text-align: center;
 bottom: 0;
@@ -206,10 +231,20 @@ color: white;}
     height: 300px;}
 
 
- .adicionados h1{
+ .adicionados h3{
 text-align: center;
 margin-top: 20px;
 color: greenyellow;}
+
+.adicionados h3:after{
+    content: '';
+    display: inline-block;
+    background: greenyellow;
+    text-align: center;
+    align-items: center;
+width: 290px;
+height: 1px;
+}
 
 
 /* pagina dos animes */
