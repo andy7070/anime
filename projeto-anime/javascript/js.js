@@ -41,6 +41,8 @@ function clickMenu6(){
 }
 
 
+
+
 const box = document.querySelector('.slider')
 const b = document.querySelectorAll('.slider img')
 
@@ -55,6 +57,8 @@ c = 0 }else{
  }}
 
  setInterval (slider, 3000)
+
+
 
 
 

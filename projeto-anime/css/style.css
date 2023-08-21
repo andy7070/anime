@@ -7,7 +7,7 @@
 @media screen and (max-width: 768px) {
     
     body{
-    background: rgba(10, 9, 9, 0.678);}
+    background: #1b1f35;}
 
     *{
     margin: 0;
@@ -80,12 +80,10 @@ color: greenyellow;}
 
 .seta-menu{
     color: greenyellow;
-font-size: .90rem;
+font-size: 1rem;
 cursor: pointer;
 padding-left: 5px;}
 
-.seta-menu:hover{
-transform: translate(5px);}
 
 
 #animes3{
@@ -144,8 +142,10 @@ list-style: none;}
 #animes6 a:hover{
 color: greenyellow;}
 
-li a:hover{
-color: greenyellow;}
+
+.entrar-cadastro:hover{
+background: black;
+}
 
 section h2 {
     padding: 20px 20px;
@@ -175,6 +175,7 @@ transition: 1s ease-in-out;}
 .slider img{
 width: 195px;}
 
+
 .descriçao{
 color: white;
 position: absolute;
@@ -190,8 +191,126 @@ background: rgba(0, 0, 0, 0.616);}
     padding: auto;;
 margin: auto;}
 
+.descriçao h3 a{
+text-decoration: none;
+color: white;}
+
+.descriçao h3 a:hover{
+ color: greenyellow;}
+
+
 .conteudo{
     display: flex;
     overflow: hidden;
     width:  195px;
     height: 300px;}
+
+
+ .adicionados h1{
+text-align: center;
+margin-top: 20px;
+color: greenyellow;}
+
+
+/* pagina dos animes */
+
+.conteudo-animes{
+display: flex;
+align-items: center;
+}
+
+
+.conteudo-animes h4{
+    margin: 10px 20px;
+color: white;}
+
+.conteudo-animes h3{
+margin: 10px 20px;
+font-size: 1rem;
+color: white;}
+
+.conteudo-animes div h3{
+    margin: 10px 20px;
+    text-align: center;
+    width: 80px;
+    background: #202020;
+    color: white;}
+
+
+.img-animes{
+display: flex;
+height: 400px;
+margin: 50px 50px;
+width: 200px;
+}
+
+.detalhes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalhes h5{
+margin: 1px 40px;
+color: white;}
+
+.trailer{
+display: flex;
+justify-content: flex-end;}
+
+.trailer h3{
+margin: 5px 30px;
+border: 2px solid greenyellow;
+color: greenyellow;
+width: 80px;
+text-align: center;
+border-radius: 10px;}
+
+.trailer h3:hover{
+color: white;
+background-color: greenyellow;}
+
+
+.sinopse h5 {
+    margin-bottom: 50px;
+    color: white;
+ text-align: center;}
+
+.episodios h3{
+ color: white;
+ background-color: #1a1a1a;
+ padding-top: 10px;
+ height: 50px;
+ text-align: center;
+ margin: 80px 0;
+}
+
+#epseta{
+color: greenyellow;
+font-size: 1.3rem;
+padding: 0 10px;
+transform: rotateX(180deg);}
+
+
+
+.ep-ep{
+background: #1a1a1a;
+list-style: none;}
+.ep-ep li{
+    padding: 10px 30px;
+ font-size: 1.7rem;
+ text-align: center;
+color: white;}
+
+#epep{
+    display: none;
+background-color: #202020;
+list-style: none;}
+
+#epep li{
+    border: 1px solid #ccc;
+    padding: 3px 0;
+    font-size: 1rem;
+color: white;
+text-align: center;
+}
+
