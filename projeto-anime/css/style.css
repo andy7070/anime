@@ -170,19 +170,20 @@ text-align: center;}
     transform: translateX(0);
 }
 .slider{
-display: flex;
-transform: translateX(0);
-transition: 1s ease-in-out;
-padding: 0 4px;
+    display: flex;
+    transform: translateX(0);
+    transition: 1s ease-in-out;
+    padding: 0 4px;
+
 
 }
 
 
 .slider img{
-width: 175px;
-border: 2px solid greenyellow;
-box-shadow: 10px 10px 10px black;
-overflow: hidden;}
+    width: 175px;
+    border: 2px solid greenyellow;
+    box-shadow: 10px 10px 10px black;
+    overflow: hidden;}
 
 .slider-btn{
 color: white;
