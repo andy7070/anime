@@ -41,6 +41,10 @@ color: white;}
         font-size: .90rem;
     color: greenyellow;}
     
+    header h1 a{
+    text-decoration: none;
+color: greenyellow;}
+    
 
 #animes{
  display: none;
