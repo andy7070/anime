@@ -6,7 +6,7 @@ function clickMenu(){
       animes.style.display = 'block'
     }
      animes.style.transition = ' 1s'
-     preventDefault()
+   
     }
     
     function clickMenu2(){
