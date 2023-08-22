@@ -40,10 +40,10 @@ color: white;}
         text-align: center;
         font-size: .90rem;
     color: greenyellow;}
-    
+
     header h1 a{
-    text-decoration: none;
-color: greenyellow;}
+        text-decoration: none;
+    color: greenyellow;}
     
 
 #animes{
@@ -151,66 +151,39 @@ color: greenyellow;}
 background: black;
 }
 
-.linha  {
-    padding: 10px 20px;
-    align-items: center;
+section h2 {
+    padding: 20px 20px;
     color: greenyellow;
 text-align: center;}
 
-.linha::after{
-    content: '';
-    display: inline-block;
-    text-align: center;
- background: greenyellow;
-    width: 150px;
-    height: 1px;
-   }
+section h2::before{
+width: 200px;
+height: 2px;}
 
 .container{
     display: flex;
-    width:  calc(100% / 1);
+    width:  389px;
     height: 300px;
     overflow: hidden;
+     
+    
     transform: translateX(0);
 }
 .slider{
-    display: flex;
-    transform: translateX(0);
-    transition: 1s ease-in-out;
-    padding: 0 4px;
-
-
-}
+display: flex;
+justify-content: space-between;
+transform: translateX(0);
+transition: 1s ease-in-out;}
 
 
 .slider img{
-    width: 180px;
-    border: 2px solid greenyellow;
-    box-shadow: 10px 10px 10px black;
-    overflow: hidden;;}
-
-.slider-btn{
-color: white;
-background: rgba(0, 0, 0, 0.733);
-border-radius: 50%;
-margin: 0 10px;
-padding: 0 10px;
-font-size: 3rem;
-text-align: center;
-position: relative;
-bottom: 185px;}
-
-.navegaçao{
-display: flex;
-text-align: center;
-justify-content: space-between;
-align-items: center;}
+width: 195px;}
 
 
 .descriçao{
 color: white;
 position: absolute;
-width: 175px;
+width: 186px;
 font-size: .65rem;
 text-align: center;
 bottom: 0;
@@ -237,20 +210,10 @@ color: white;}
     height: 300px;}
 
 
- .adicionados h3{
+ .adicionados h1{
 text-align: center;
 margin-top: 20px;
 color: greenyellow;}
-
-.adicionados h3:after{
-    content: '';
-    display: inline-block;
-    background: greenyellow;
-    text-align: center;
-    align-items: center;
-width: 290px;
-height: 1px;
-}
 
 
 /* pagina dos animes */
@@ -301,10 +264,15 @@ justify-content: flex-end;}
 .trailer h3{
 margin: 5px 30px;
 border: 2px solid greenyellow;
-color: greenyellow;
+
 width: 80px;
 text-align: center;
 border-radius: 10px;}
+
+.trailer h3 a{
+text-decoration: none;
+color: white;
+}
 
 .trailer h3:hover{
 color: white;
@@ -349,14 +317,57 @@ list-style: none;}
 
 #epep li{
     border: 1px solid #ccc;
-    padding: 3px 0;
+    padding: 15px 0;
     font-size: 1rem;
 color: white;
 text-align: center;
 }
 
+#epep li a{
+text-decoration: none;
+color: white;}
+#epep li a:hover{
+color: greenyellow;}
 
-.on{
-opacity: 1;}
+#iframe{
+margin: 30px 20px;}
 
 
+/* generos e links*/
+
+.links-generos{
+    display: flex;
+    }
+    
+    .links-generos h6{
+        text-align: center;
+        font-size: .80rem;
+        margin: 10px 7px;
+        padding-left: 5px;
+    }
+    
+    .links-generos h6 a{
+    text-decoration: none;
+    color: greenyellow;}
+    
+    .links-generos h6 a:hover{
+    color: white;}
+    
+    .detalhes{
+    margin: 10px 10px;}
+    
+    .detalhes ul{
+    list-style: none;
+    ;}
+    
+    .detalhes ul li{
+      color: white;
+      line-height: 2.5rem;
+    padding-left: 5px;}
+    
+    
+    .ion{
+     font-size: 1.2rem;
+      text-align: justify;}
+    
+    

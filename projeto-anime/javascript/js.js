@@ -57,20 +57,39 @@ c = - 1 }else{
 
 
 
-const slider = document.querySelectorAll('.slider-img')
-const btnprev = document.querySelectorAll('.slider-btn-esquerdo')
-const btnnext = document.querySelectorAll('.slider-btn-direito')
+const slideer = document.querySelectorAll('.slider-img')
+const btnprev = document.getElementById('slider-btn-esquerdo')
+const btnnext = document.getElementById('.slider-btn-direito')
 
 
 let currentSlider = 0
 
 function hiderSlider(){
-slider.array.forEach(item => item.classList.remove('on'))}
+  slider.array.forEach(item => item.classList.remove('on'))}
+  
+  
+  function showSlider () {
+    slider[currentSlider].classList.add('on')
+  
+  }
 
 
-function showSlider () {
-  slider[currentSlider1].classList.add('on')
-}
+  function nextSlider(){
+    hiderSlider()
+   
+    if(currentSlider == slideer.length - 1){
+     currentSlider = 0 } else {
+    
+     currentSlider++
+    }
+  
+  showSlider()
+  }
+
+
+
+
+
 
 
 
