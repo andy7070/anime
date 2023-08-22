@@ -1,0 +1,373 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    body{
+    background: #1b1f35;}
+
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+    header div img{
+    width: 80px;
+    }
+    header{
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    z-index: 101;
+    }
+
+    .botao-header{
+    padding-right: 15px;
+     font-size: 2rem;
+    cursor: pointer;
+    color: greenyellow;
+    padding: 10px 20px;
+}
+
+.botao-header:hover{
+color: white;}
+    header h1{
+        text-align: center;
+        font-size: .90rem;
+    color: greenyellow;}
+
+    header h1 a{
+        text-decoration: none;
+    color: greenyellow;}
+    
+
+#animes{
+ display: none;
+background: #1a1a1a;}
+} 
+
+#animes li{
+ list-style: none;
+ color: white;
+ font-size: 1rem;
+padding: 10px 20px;}
+
+
+
+#animes a {
+text-decoration: none;
+color: white;}
+
+#animes2{
+display: none;
+list-style: none;
+}
+
+#animes2 li{
+    list-style: none;
+ color: white;
+ font-size: .70rem;
+padding: 10px 20px;
+border: 2px solid #202020;
+}
+
+#animes2 a{
+text-decoration: none;
+color: white;}
+#animes2 a:hover{
+color: greenyellow;}
+
+.seta-menu{
+    color: greenyellow;
+font-size: 1rem;
+cursor: pointer;
+padding-left: 5px;}
+
+
+
+#animes3{
+display: none;
+list-style: none;}
+
+#animes3 li{
+    list-style: none;
+    color: white;
+    font-size: .70rem;
+   padding: 10px 20px;
+   border: 2px solid #202020;
+}
+
+#animes3 a:hover{
+ color: greenyellow;}
+
+ #animes4{
+display: none;
+ list-style: none;}
+
+ #animes4 li{
+    list-style: none;
+    color: white;
+    font-size: .70rem;
+   padding: 10px 20px;
+   border: 2px solid #202020;
+}
+
+#animes4 a:hover{
+color: greenyellow;}
+
+#animes5{
+display: none;
+list-style: none;}
+
+#animes5 li{
+   color: white;
+font-size: .70rem;
+padding: 10px 20px;
+border: 2px solid #202020;}
+
+#animes5 a:hover{
+color: greenyellow;}
+
+#animes6{
+display: none;
+list-style: none;}
+
+#animes6 li {
+    color: white;
+    font-size: .70rem;
+    padding: 10px 20px;
+    border: 2px solid #202020;
+}
+#animes6 a:hover{
+color: greenyellow;}
+
+
+.entrar-cadastro:hover{
+background: black;
+}
+
+section h2 {
+    padding: 20px 20px;
+    color: greenyellow;
+text-align: center;}
+
+section h2::before{
+width: 200px;
+height: 2px;}
+
+.container{
+    display: flex;
+    width:  389px;
+    height: 300px;
+    overflow: hidden;
+     
+    
+    transform: translateX(0);
+}
+.slider{
+display: flex;
+justify-content: space-between;
+transform: translateX(0);
+transition: 1s ease-in-out;}
+
+
+.slider img{
+width: 195px;}
+
+
+.descriçao{
+color: white;
+position: absolute;
+width: 186px;
+font-size: .65rem;
+text-align: center;
+bottom: 0;
+padding-left: 5px;
+border: 2px solid transparent;
+background: rgba(0, 0, 0, 0.616);}
+
+.descriçao h3{
+    padding: auto;;
+margin: auto;}
+
+.descriçao h3 a{
+text-decoration: none;
+color: white;}
+
+.descriçao h3 a:hover{
+ color: greenyellow;}
+
+
+.conteudo{
+    display: flex;
+    overflow: hidden;
+    width:  195px;
+    height: 300px;}
+
+
+ .adicionados h1{
+text-align: center;
+margin-top: 20px;
+color: greenyellow;}
+
+
+/* pagina dos animes */
+
+.conteudo-animes{
+display: flex;
+align-items: center;
+}
+
+
+.conteudo-animes h4{
+    margin: 10px 20px;
+color: white;}
+
+.conteudo-animes h3{
+margin: 10px 20px;
+font-size: 1rem;
+color: white;}
+
+.conteudo-animes div h3{
+    margin: 10px 20px;
+    text-align: center;
+    width: 80px;
+    background: #202020;
+    color: white;}
+
+
+.img-animes{
+display: flex;
+height: 400px;
+margin: 50px 50px;
+width: 200px;
+}
+
+.detalhes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalhes h5{
+margin: 1px 40px;
+color: white;}
+
+.trailer{
+display: flex;
+justify-content: flex-end;}
+
+.trailer h3{
+margin: 5px 30px;
+border: 2px solid greenyellow;
+
+width: 80px;
+text-align: center;
+border-radius: 10px;}
+
+.trailer h3 a{
+text-decoration: none;
+color: white;
+}
+
+.trailer h3:hover{
+color: white;
+background-color: greenyellow;}
+
+
+.sinopse h5 {
+    margin-bottom: 50px;
+    color: white;
+ text-align: center;}
+
+.episodios h3{
+ color: white;
+ background-color: #1a1a1a;
+ padding-top: 10px;
+ height: 50px;
+ text-align: center;
+ margin: 80px 0;
+}
+
+#epseta{
+color: greenyellow;
+font-size: 1.3rem;
+padding: 0 10px;
+transform: rotateX(180deg);}
+
+
+
+.ep-ep{
+background: #1a1a1a;
+list-style: none;}
+.ep-ep li{
+    padding: 10px 30px;
+ font-size: 1.7rem;
+ text-align: center;
+color: white;}
+
+#epep{
+    display: none;
+background-color: #202020;
+list-style: none;}
+
+#epep li{
+    border: 1px solid #ccc;
+    padding: 15px 0;
+    font-size: 1rem;
+color: white;
+text-align: center;
+}
+
+#epep li a{
+text-decoration: none;
+color: white;}
+#epep li a:hover{
+color: greenyellow;}
+
+#iframe{
+margin: 30px 20px;}
+
+
+/* generos e links*/
+
+.links-generos{
+    display: flex;
+    }
+    
+    .links-generos h6{
+        text-align: center;
+        font-size: .80rem;
+        margin: 10px 7px;
+        padding-left: 5px;
+    }
+    
+    .links-generos h6 a{
+    text-decoration: none;
+    color: greenyellow;}
+    
+    .links-generos h6 a:hover{
+    color: white;}
+    
+    .detalhes{
+    margin: 10px 10px;}
+    
+    .detalhes ul{
+    list-style: none;
+    ;}
+    
+    .detalhes ul li{
+      color: white;
+      line-height: 2.5rem;
+    padding-left: 5px;}
+    
+    
+    .ion{
+     font-size: 1.2rem;
+      text-align: justify;}
+    
+    
