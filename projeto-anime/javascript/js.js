@@ -58,37 +58,22 @@ c = - 1 }else{
 
 
 const slideer = document.querySelectorAll('.slider-img')
-const btnprev = document.getElementById('slider-btn-esquerdo')
-const btnnext = document.getElementById('.slider-btn-direito')
+const btnprev = document.getElementById('slider_btn_esquerdo')
+const btnnext = document.getElementById('slider_btn_direito')
 
 
 let currentSlider = 0
 
-function hiderSlider(){
-  slider.array.forEach(item => item.classList.remove('on'))}
-  
-  
-  function showSlider () {
-    slider[currentSlider].classList.add('on')
-  
-  }
-
-
-  function nextSlider(){
-    hiderSlider()
-   
-    if(currentSlider == slideer.length - 1){
-     currentSlider = 0 } else {
-    
-     currentSlider++
-    }
-  
-  showSlider()
-  }
+function nextSlider() {
+  if(currentSlider == b.length - 1){
+  currentSlider = 0} else {
+  currentSlider++
+}
+}
 
 
 
-
+btnnext.addEventListener('click', () => nextSlider)
 
 
 
