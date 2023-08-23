@@ -344,6 +344,7 @@ margin: 30px 20px;}
         font-size: .80rem;
         margin: 10px 7px;
         padding-left: 5px;
+        transition: 0.7s;
     }
     .links-generos h6:hover{
         transform: scaleX(1.2);}
