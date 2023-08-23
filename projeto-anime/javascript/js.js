@@ -43,6 +43,12 @@ function clickMenu(){
 const box = document.querySelector('.slider')
 const b = document.querySelectorAll('.conteudo')
 
+const btnprev = document.getElementById('slider_btn_esquerdo')
+const btnnext = document.getElementById('slider_btn_direito')
+
+
+
+
 let c = 0
 
 
@@ -50,30 +56,18 @@ function slider(){
     c++
   if(c == b.length - 1){
 c = - 1 }else{
-  box.style.transform = `translateX(${-c * 195}px)`
- }}
+ }
+ box.style.transform = `translateX(${-c * 195}px)`
+}
 
  setInterval (slider, 3000)
 
 
 
-const slideer = document.querySelectorAll('.slider-img')
-const btnprev = document.getElementById('slider_btn_esquerdo')
-const btnnext = document.getElementById('slider_btn_direito')
-
-
-let currentSlider = 0
-
-function nextSlider() {
-  if(currentSlider == b.length - 1){
-  currentSlider = 0} else {
-  currentSlider++
-}
-}
 
 
 
-btnnext.addEventListener('click', () => nextSlider)
+
 
 
 
