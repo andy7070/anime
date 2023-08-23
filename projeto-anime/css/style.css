@@ -182,6 +182,9 @@ text-align: center;}
 
 }
 
+.slider a:hover{
+transform: scale(.90);}
+
 
 .slider img{
     width: 180px;

@@ -220,6 +220,7 @@ color: greenyellow;}
 
 .conteudo-animes{
 display: flex;
+justify-content: space-between;
 align-items: center;
 }
 
@@ -229,13 +230,13 @@ align-items: center;
 color: white;}
 
 .conteudo-animes h3{
-margin: 10px 20px;
+    margin: 10px 35px;
+    text-align: center;
 font-size: 1rem;
 color: white;}
 
+
 .conteudo-animes div h3{
-    margin: 10px 20px;
-    text-align: center;
     width: 80px;
     background: #202020;
     color: white;}
@@ -281,6 +282,12 @@ background-color: greenyellow;}
 
 
 .sinopse h5 {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    font-size: .80rem;
+    line-height: 1.6rem;
+    margin: auto 7px;
     margin-bottom: 50px;
     color: white;
  text-align: center;}
@@ -355,7 +362,8 @@ margin: 30px 20px;}
     color: greenyellow;}
     
     .links-generos h6 a:hover{
-    color: white;}
+    color: white;
+    }
     
     .detalhes{
     margin: 10px 10px;}
