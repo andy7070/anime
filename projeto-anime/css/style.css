@@ -162,9 +162,9 @@ height: 2px;}
 
 .container{
     display: flex;
-    width:  389px;
+    width:  370px;
     height: 300px;
-    overflow: hidden;
+ 
      
     
     transform: translateX(0);
@@ -176,9 +176,9 @@ transform: translateX(0);
 transition: 1s ease-in-out;}
 
 
-.slider img{
-width: 195px;}
-
+#slider_img{
+    width: 189px;
+}
 
 .descriçao{
 color: white;
@@ -204,14 +204,11 @@ color: white;}
 
 
 .conteudo{
-    display: flex;
-    justify-content: space-between;
     overflow: hidden;
  border: 1px solid greenyellow;}
 
  .slider{
-display: flex;
-gap: 5rem;}
+display: flex;}
 
    
 
