@@ -52,7 +52,9 @@ btnnext.addEventListener('click', next)
 
 btnprev.addEventListener('click', prev)
 
-c = 0
+
+
+
 
 
 function next() {
@@ -66,10 +68,9 @@ box.style.transform = `translateX(${-c * 195}px)`
 }
 
 
-function prev(){
 
 
-}
+
 
 
 
