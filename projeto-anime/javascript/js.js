@@ -46,21 +46,32 @@ const b = document.querySelectorAll('.conteudo')
 const btnprev = document.getElementById('slider_btn_esquerdo')
 const btnnext = document.getElementById('slider_btn_direito')
 
+const img = document.getElementById('slider_img')
+
+btnnext.addEventListener('click', next)
+
+btnprev.addEventListener('click', prev)
+
+c = 0
 
 
-
-let c = 0
-
-
-function slider(){
-    c++
-  if(c == b.length - 1){
-c = 0 }else{
- }
- box.style.transform = `translateX(${-c * 195}px)`
+function next() {
+  c++
+ if(c == b.length -1){
+c = 0
+} else {
+box.style.transform = `translateX(${-c * 195}px)`
 }
 
- setInterval (slider, 3000)
+}
+
+
+function prev(){
+
+
+}
+
+
 
 
 
