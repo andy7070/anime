@@ -36,36 +36,50 @@ function clickMenu(){
    if(animes6.style.display == 'block'){
      animes6.style.display= 'none'}else{
     animes6.style.display = 'block'}}
-  
+
+    
 
 
 
-const box = document.querySelector('.slider')
-const b = document.querySelectorAll('.conteudo')
+    const slider = document.querySelectorAll('.slider');
+const btnPrev = document.getElementById('prev-button');
+const btnNext = document.getElementById('next-button');
 
-const btnprev = document.getElementById('slider_btn_esquerdo')
-const btnnext = document.getElementById('slider_btn_direito')
+let currentSlide = 0;
 
-const img = document.getElementById('slider_img')
-
-btnnext.addEventListener('click', next)
-
-btnprev.addEventListener('click', prev)
-
-
-
-
-
-
-function next() {
-  c++
- if(c == b.length -1){
-c = 0
-} else {
-box.style.transform = `translateX(${-c * 195}px)`
+function hideSlider() {
+  slider.forEach(item => item.classList.remove('on'))
 }
 
+function showSlider() {
+  slider[currentSlide].classList.add('on')
 }
+
+function nextSlider() {
+  hideSlider()
+  if(currentSlide === slider.length -1) {
+    currentSlide = 0
+  } else {
+    currentSlide++
+  }
+  showSlider()
+}
+
+function prevSlider() {
+  hideSlider()
+  if(currentSlide === 0) {
+    currentSlide = slider.length -1
+  } else {
+    currentSlide--
+  }
+  showSlider()
+}
+
+btnNext.addEventListener('click', nextSlider)
+btnPrev.addEventListener('click', prevSlider)
+
+setInterval(nextSlider, 5000)
+
 
 
 
