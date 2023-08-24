@@ -162,9 +162,9 @@ height: 2px;}
 
 .container{
     display: flex;
-    width:  370px;
+    width:  389px;
     height: 300px;
- 
+    overflow: hidden;
      
     
     transform: translateX(0);
@@ -176,9 +176,9 @@ transform: translateX(0);
 transition: 1s ease-in-out;}
 
 
-#slider_img{
-    width: 189px;
-}
+.slider img{
+width: 195px;}
+
 
 .descriçao{
 color: white;
@@ -204,13 +204,11 @@ color: white;}
 
 
 .conteudo{
+    display: flex;
     overflow: hidden;
- border: 1px solid greenyellow;}
+    width:  195px;
+    height: 300px;}
 
- .slider{
-display: flex;}
-
-   
 
  .adicionados h1{
 text-align: center;
@@ -232,8 +230,9 @@ color: white;}
 
 .conteudo-animes h3{
 margin: 10px 20px;
-font-size: 1rem;
+font-size: .75rem;
 color: white;}
+
 
 .conteudo-animes div h3{
     margin: 10px 20px;
@@ -247,7 +246,7 @@ color: white;}
 display: flex;
 height: 400px;
 margin: 50px 50px;
-width: 299px;
+width: 283px;
 border: 1px solid transparent;
 box-shadow: 1px 2px  10px  greenyellow;
 }
@@ -358,7 +357,8 @@ margin: 30px 20px;}
     color: greenyellow;}
     
     .links-generos h6 a:hover{
-    color: white;}
+    color: white;
+    }
     
     .detalhes{
     margin: 10px 10px;}
@@ -376,5 +376,8 @@ margin: 30px 20px;}
     .ion{
      font-size: 1.2rem;
       text-align: justify;}
+    
+    
+
     
     
