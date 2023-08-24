@@ -5,7 +5,8 @@ function clickMenu(){
   } else {
     animes.style.display = 'block'
   }
-   animes.style.transition = ' 1s'
+
+   
   }
   
   function clickMenu2(){
@@ -36,85 +37,39 @@ function clickMenu(){
    if(animes6.style.display == 'block'){
      animes6.style.display= 'none'}else{
     animes6.style.display = 'block'}}
+  
+
+
+  function setaEp(){
+    if(epep.style.display == 'block'){
+    epep.style.display = 'none'} else{
+    epep.style.display = 'block'}
+
+    epep.style.transition = '0.7s'
+
+    if(epseta.style.transform == 'rotateX(0deg)'){
+    epseta.style.transform = 'rotateX(180deg)'}else{
+    epseta.style.transform = 'rotateX(0deg)'}
 
     
-
-
-
-    const slider = document.querySelectorAll('.slider');
-const btnPrev = document.getElementById('prev-button');
-const btnNext = document.getElementById('next-button');
-
-let currentSlide = 0;
-
-function hideSlider() {
-  slider.forEach(item => item.classList.remove('on'))
-}
-
-function showSlider() {
-  slider[currentSlide].classList.add('on')
-}
-
-function nextSlider() {
-  hideSlider()
-  if(currentSlide === slider.length -1) {
-    currentSlide = 0
-  } else {
-    currentSlide++
   }
-  showSlider()
+    
+  const box = document.querySelector('.slider')
+  const b = document.querySelectorAll('.conteudo')
+  
+  const btnprev = document.getElementById('slider_btn_esquerdo')
+  const btnnext = document.getElementById('slider_btn_direito')
+
+let c = 0
+
+
+function slider(){
+    c++
+  if(c == b.length - 1){
+c = 0 }else{
+ }
+ box.style.transform = `translateX(${-c * 250}px)`
 }
 
-function prevSlider() {
-  hideSlider()
-  if(currentSlide === 0) {
-    currentSlide = slider.length -1
-  } else {
-    currentSlide--
-  }
-  showSlider()
-}
+ setInterval (slider, 3000)
 
-btnNext.addEventListener('click', nextSlider)
-btnPrev.addEventListener('click', prevSlider)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
