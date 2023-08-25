@@ -167,24 +167,27 @@ height: 2px;}
 
 
 
-.container-imagens{
+.container_imagens{
  display: flex;
  position: relative;
  overflow: hidden;
  margin-top: 50px;
  margin-left: 2px;
+ transform: translateX(0);
 
  
 }
 
 .imagens{
  display: flex;
-overflow: hidden;
 gap: .50rem;
+transition: 1s;
+transform: translateX(0);
 }
 
 .imagens img{
  border: 2px solid greenyellow;
+ box-shadow: 5px 5px  5px black;
 }
 
 

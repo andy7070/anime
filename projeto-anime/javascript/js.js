@@ -54,4 +54,20 @@ function clickMenu(){
     
   }
     
- 
+  const box = document.querySelector('.imagens')
+  const b = document.querySelectorAll('.imagens')
+
+
+
+  let c = 0
+
+
+function slider(){
+    c++
+  if(c == b.length - 1){
+c = 0 }else{
+ }
+ box.style.transform = `translateX(${-c * 190}px)`
+}
+
+ setInterval (slider, 3000)
