@@ -170,7 +170,7 @@ height: 2px;}
 }
 .slider{
 display: flex;
-
+padding: 0 2px;
 transform: translateX(0);
 transition: 1s ease-in-out;}
 

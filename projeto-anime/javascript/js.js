@@ -55,22 +55,58 @@ function clickMenu(){
   }
     
   const box = document.querySelector('.imagens')
-  const b = document.querySelectorAll('.imagens')
+  const b = document.querySelectorAll('.imagens img')
+  const direito = document.getElementById('direito')
+  const esquerdo = document.getElementById('esquerdo')
 
 
 
   let c = 0
 
 
-function slider(){
+  function slider(){
     c++
   if(c == b.length - 1){
-c = 0 }else{
+c =  0 }else{
  }
- box.style.transform = `translateX(${-c * 190}px)`
+ box.style.transform = `translate3d(${-c * 190}px)`
 }
 
- setInterval (slider, 3000)
+ setInterval (slider, 5000)
+
+
+
+
+
+ direito.addEventListener('click', next)
+ esquerdo.addEventListener('click', prev)
+
+
+ 
+ function next(){
+  c++
+  if(c == b.length){
+   c = 0
+  } else {
+    box.style.transform = `translate3d(${-c * 190}px)`
+  }
+  }
+
+  function prev(){
+    if ( c == b.length){
+    c --
+    }
+    box.style.transform = `translate3d(${c * 190}px)`
+   }
+  
+
+
+  
+
+
+
+
+
 
 
 
