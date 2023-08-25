@@ -54,22 +54,4 @@ function clickMenu(){
     
   }
     
-  const box = document.querySelector('.slider')
-  const b = document.querySelectorAll('.conteudo')
-  
-  const btnprev = document.getElementById('slider_btn_esquerdo')
-  const btnnext = document.getElementById('slider_btn_direito')
-
-let c = 0
-
-
-function slider(){
-    c++
-  if(c == b.length - 1){
-c = 0 }else{
- }
- box.style.transform = `translateX(${-c * 195}px)`
-}
-
- setInterval (slider, 3000)
-
+ 
