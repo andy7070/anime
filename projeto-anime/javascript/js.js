@@ -71,3 +71,7 @@ c = 0 }else{
 }
 
  setInterval (slider, 3000)
+
+
+
+ 

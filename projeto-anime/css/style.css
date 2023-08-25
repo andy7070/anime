@@ -166,10 +166,9 @@ height: 2px;}
 /*slider */
 
 
-
 .container_imagens{
  display: flex;
- position: relative;
+position: relative;
  overflow: hidden;
  margin-top: 50px;
  margin-left: 2px;
@@ -185,14 +184,24 @@ transition: 1s;
 transform: translateX(0);
 }
 
+
 .imagens img{
  border: 2px solid greenyellow;
  box-shadow: 5px 5px  5px black;
 }
 
+.imagens  img:hover{
+transform: scale(.95); 
+}
 
+.seçao{
+ position: absolute;
+}
+ion-icon{
 
-
+ font-size: 3rem;
+ color: white;
+}
 
 
 
