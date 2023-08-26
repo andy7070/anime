@@ -53,37 +53,47 @@ function clickMenu(){
 
     
   }
+
+
+
+
+  const slider = document.querySelectorAll('.slider');
+  const btnPrev = document.getElementById('esquerdo');
+  const btnNext = document.getElementById('direito');
+  
+  let currentSlide = 0;
+  function hideSlider() {
+    slider.forEach(item => item.classList.remove('on'))
+  }
+  
+  function showSlider() {
+    slider[currentSlide].classList.add('on')
+  }
+
+  function nextSlider() {
+    if(currentSlide === slider.length -1) {
+      currentSlide = 0
+    } else {
+      currentSlide++
+    }
     
-  const box = document.querySelector('.imagens')
-  const b = document.querySelectorAll('.imagens img')
-  const direito = document.getElementById('direito')
-  const esquerdo = document.getElementById('esquerdo')
-
-
-
-  let c = 0
-
-
-  function slider(){
-    c++
-  if(c == b.length - 1){
-c =  0 }else{
- }
- box.style.transform = `translateX(${-c * 190}px)`
-}
-
- setInterval (slider, 5000)
-
-
-
-
-
- direito.addEventListener('click', next)
- esquerdo.addEventListener('click', prev)
-
-
- 
- 
+  }
+  
+  function prevSlider() {
+  
+    if(currentSlide === 0) {
+      currentSlide = slider.length -1
+    } else {
+      currentSlide--
+    }
+   
+  }
+  
+  btnNext.addEventListener('click', nextSlider)
+  btnPrev.addEventListener('click', prevSlider)
+  
+  
+  setInterval(nextSlider, 1000) 
 
 
 
@@ -95,4 +105,3 @@ c =  0 }else{
 
 
 
- 
