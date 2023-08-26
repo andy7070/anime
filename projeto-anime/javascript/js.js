@@ -69,7 +69,7 @@ function clickMenu(){
   if(c == b.length - 1){
 c =  0 }else{
  }
- box.style.transform = `translate3d(${-c * 190}px)`
+ box.style.transform = `translateX(${-c * 190}px)`
 }
 
  setInterval (slider, 5000)
@@ -83,25 +83,10 @@ c =  0 }else{
 
 
  
- function next(){
-  c++
-  if(c == b.length){
-   c = 0
-  } else {
-    box.style.transform = `translate3d(${-c * 190}px)`
-  }
-  }
-
-  function prev(){
-    if ( c == b.length){
-    c --
-    }
-    box.style.transform = `translate3d(${c * 190}px)`
-   }
-  
+ 
 
 
-  
+
 
 
 
