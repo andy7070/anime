@@ -160,25 +160,6 @@ section h2::before{
 width: 200px;
 height: 2px;}
 
-.container{
-    display: flex;
-    width:  389px;
-    height: 300px;
-    overflow: hidden;
-     
-    
-    transform: translateX(0);
-}
-.slider{
-display: flex;
-justify-content: space-between;
-transform: translateX(0);
-transition: 1s ease-in-out;}
-
-
-.slider img{
-width: 195px;}
-
 
 .descriçao{
 color: white;
