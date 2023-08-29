@@ -10,3 +10,4 @@ animes2_pc.style.display = 'block'
 }
 
 }
+

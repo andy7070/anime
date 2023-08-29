@@ -21,26 +21,36 @@
         }
 
       .img-logo{
-        width: 120px;
-        top: -8px;
-        left: -50px;
+        width: 110px;
+        top: -6px;
+        left: -70px;
         left: 0;
     }
         header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background: black;
         z-index: 101;
         }
-    
+
+        header h1 {
+            display: flex;
+            margin: 5px 0;
+          font-size: .80rem;
+        }
+        header h1 a{
+        font-size: 1.1rem;
+        margin: 5px 0;
+        }
+       
         .botao-header{
-        padding-right: 15px;
-         font-size: 2rem;
+         font-size: 2.5rem;
         cursor: pointer;
         color: greenyellow;
         padding: 10px 30px;
     }
+
     #menu-celular{
     right: 0;
     position: absolute;
@@ -57,16 +67,7 @@
     .botao-header:hover{
     color: white;}
 
-        header h1{
-            text-align: center;
-            font-size: .90rem;
-        color: greenyellow;}
-    
-        header h1 a{
-            text-decoration: none;
-        color: greenyellow;}
-        
-    
+
     #animes{
      display: none;
     background: #1a1a1a;}

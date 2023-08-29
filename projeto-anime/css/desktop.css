@@ -15,7 +15,7 @@ body{
 }
  /*configuraçoes de cabeçario */
 header div img{
-width: 200px;
+width: 180px;
 bottom: 0;
 margin-bottom: 20px;
 position: absolute;
@@ -30,18 +30,14 @@ height: 100px;
 background: black;
 }
 header h1 {
- margin: 20px 0;
- font-size: 1.2rem;
- position: absolute;
+ margin: 20px 0px;
+ font-size: 1.5rem;
 }
 
 header h1 a{
 text-decoration: none;
 color: greenyellow;
-position: absolute;
-}
-.h1-mobile{
-display: none;
+
 }
 
 .menu-celular{
@@ -62,8 +58,7 @@ background: black;
     display: flex;
     margin: 20px 15px;
 list-style: none;
-padding: 15px 30px;
-gap: 5rem;
+gap: 8rem;
 color: white;
 transition: 1s;
 }
