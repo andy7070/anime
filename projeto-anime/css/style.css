@@ -38,6 +38,10 @@
         color: greenyellow;
         padding: 10px 20px;
     }
+
+    #animes_pc{
+    display: none;
+    }
     
     .botao-header:hover{
     color: white;}
