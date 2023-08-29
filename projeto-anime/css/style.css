@@ -48,11 +48,11 @@
     .entrar-cadastro{
     display: none;}
     #menu-pc{
-    display: none;}
+        display: none;}
 
     #animes_pc{
-    display: none;
-    }
+        display: none;
+        }
     
     .botao-header:hover{
     color: white;}
