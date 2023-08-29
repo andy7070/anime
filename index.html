@@ -8,20 +8,103 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="projeto-anime/css/desktop.css">
+    <script src="/projeto-anime/javascript/desktop.js" defer></script>
     
 </head>
 <body>
 <header>
     <div>
-        <img src="projeto-anime/imagens/s__1_-removebg-preview.png" alt="#">
+        <img src="projeto-anime/imagens/s__1_-removebg-preview.png" alt="#"> 
+       
     </div>
-   
-     <div>
-        <h1><a href="https://andy7070.github.io/anime/">Animes <br> Suigetsu</a></h1>
-     </div>
-      <div>
-        <ion-icon name="menu-outline" class="botao-header" onclick=" clickMenu()" ></ion-icon>
+    <div class="menu-pc">
+        <ion-icon name="menu-outline" class="botao-header" onclick=" clickMenu()" id="menu-celular"></ion-icon>
+        <div id="menu-pc">
+            <ul id="animes_pc">
+                <li>Animes<ion-icon name="caret-down-outline" onclick="menu1()" class="ep-setinha"></ion-icon>
+                    <ul id="animes2_pc">
+                        <li><a href="#">Em lançamento</a></li>
+                        <li><a href="#">Top Animes</a></li>
+                        <li><a href="#">Legendados</a></li>
+                        <li><a href="#">Calendário</a></li>
+                    </ul>
+                    <li>Filmes<ion-icon name="chevron-down-outline" onclick="clickMenu3()" class="seta-menu"></ion-icon>
+            
+                        <ul id="animes3-pc">
+                            <li><a href="#">Legendados</a></li>
+                            <li><a href="#">Dublados</a></li>
+                        </ul>
+                       <li>Gênero<ion-icon name="chevron-down-outline" class="seta-menu" onclick="clickMenu4()"></ion-icon>
+                        <ul id="animes4-pc">
+                            <li><a href="#">Açao</a></li>
+                            <li><a href="#">Artes Marciais</a></li>
+                            <li><a href="#">Aventura</a></li>
+                            <li><a href="#">Comédia</a></li>
+                            <li><a href="#">Demônios</a></li>
+                            <li><a href="#">Drama</a></li>
+                            <li><a href="#">Echi</a></li>
+                            <li><a href="#">Espaço</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Fantasia</a></li>
+                            <li><a href="#">Ficçao Científica</a></li>
+                            <li><a href="#">Harém</a></li>
+                            <li><a href="#">Horror</a></li>
+                            <li><a href="#">Jogos</a></li>
+                            <li><a href="#">Josei</a></li>
+                            <li><a href="#">Magia</a></li>
+                            <li><a href="#">Mecha</a></li>
+                            <li><a href="#">Mistério</a></li>
+                            <li><a href="#">Militar</a></li>
+                            <li><a href="#">Musical</a></li>
+                            <li><a href="#">Paródia</a></li>
+                            <li><a href="#">Psicológia</a></li>
+                            <li><a href="#">Romance</a></li>
+                            <li><a href="#">Seinen</a></li>
+                            <li><a href="#">Shoujo-ai</a></li>
+                            <li><a href="#">Shounen</a></li>
+                            <li><a href="#">Slice of Life</a></li>
+                            <li><a href="#">Sobrenatural</a></li>
+                            <li><a href="#">Suspense</a></li>
+                            <li><a href="#">Superpoder</a></li>
+                            <li><a href="#">Vampiros</a></li>
+                            <li><a href="#">Vida Escolar</a></li>
+                        </ul>
+                        <li>Temporadas<ion-icon name="chevron-down-outline" class="seta-menu" onclick="clickMenu5()"></ion-icon>
+                            <ul id="animes5-pc">
+                              <li><a href="#">Outono</a></li>
+                              <li><a href="#">Inverno</a></li>
+                              <li><a href="#">Primavera</a></li>
+                              <li><a href="#">Verão</a></li>
+                            </ul>
+                            <li>Mais<ion-icon name="chevron-down-outline" class="seta-menu" onclick="clickMenu6()"></ion-icon>
+                                <ul id="animes6-pc">
+                                    <li><a href="#">Pedidos</a></li>
+                                    <li><a href="#">Sugestôes</a></li>
+                                    <li><a href="#">Notificações</a></li>
+                                    <li><a href="#">Regras</a></li>
+                                </ul>
+                                    <li><a href="#" class="entrar-cadastro">Entrar | Cadastrar</a></li>
+                            </li>
+                        </li>
+                       </li>
+                    </li>
+            
+                </li>
+            
+              </ul>
+        </div>
       </div>
+
+
+
+     <div>
+        <h1 class="h1-mobile"><a href="https://andy7070.github.io/anime/">Animes <br> Suigetsu</a></h1>
+       
+        
+     </div>
+   
+      
 </header>
 
  <section>
@@ -91,7 +174,7 @@
                                 <li><a href="#">Notificações</a></li>
                                 <li><a href="#">Regras</a></li>
                             </ul>
-                                <li><a href="#" class="entrar-cadastro">Entrar | Cadastrar</a></li>
+                            <li><a href="#" class="entrar-cadastro">Entrar | Cadastrar</a></li>
                         </li>
                     </li>
                    </li>
