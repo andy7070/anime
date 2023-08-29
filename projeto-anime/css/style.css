@@ -21,8 +21,8 @@
         }
 
       .img-logo{
-        width: 150px;
-        top: -20px;
+        width: 120px;
+        top: -8px;
         left: -50px;
         left: 0;
     }
@@ -39,7 +39,7 @@
          font-size: 2rem;
         cursor: pointer;
         color: greenyellow;
-        padding: 10px 20px;
+        padding: 10px 30px;
     }
     #menu-celular{
     right: 0;
