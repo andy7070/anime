@@ -30,12 +30,18 @@ height: 100px;
 background: black;
 }
 
-.header-h1{
-position: absolute;
-padding: 30px 200px;
+.logo-site-mobile{
+ display: none;                   
 }
+
+
 header h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
 font-size: 1.1rem;
+font-family: 'koulen', sans-serif;
 }
 
 header h1 a{
@@ -44,13 +50,15 @@ color: greenyellow;
 
 }
 
-.menu-celular{
-display: none;
+.logo-site{
+ margin: 0 30px;
 }
+
 
 #animes{
 display: none;
 }
+
 
 .cadastro{
     display: flex;
@@ -72,12 +80,14 @@ display: none;
     }
 
 #animes_pc{
-    display: flex;
+   display: flex;
+   justify-content: space-between;
 padding: 30px 50px;
 list-style: none;
 gap: 5rem;
 color: white;
 transition: 1s;
+overflow: hidden;
 }
 #animes_pc li {
 font-size: 1.2rem;
@@ -89,11 +99,12 @@ display: none;
 position: absolute;
  list-style: none;
  padding: 5px 20px;
- background: linear-gradient(to top, black, transparent );
+ background: linear-gradient(to top, black, #000  );
  width: 180px;
 border-radius: 20px;
  margin: 5px 0px;
  transition: 1s ;
+
 
 }
 #animes2_pc li{
@@ -117,11 +128,12 @@ color: white;
     display: none;
     list-style: none;
     padding: 5px 20px;
-    background: linear-gradient(to top, black, transparent );
+    background: linear-gradient(to top, black, #000  );
     width: 150px;
    border-radius: 20px;
     margin: 5px 0px;
     transition: 1s ;
+    z-index: 1;
 }
 
 #animes3_pc li{
@@ -145,11 +157,12 @@ color: white;
         display: none;
         list-style: none;
         padding: 5px 20px;
-        background: linear-gradient(to top, black, transparent );
-        width: 280px;
+        background: linear-gradient(to top, black, #000  );
+        width: 300px;
        border-radius: 20px;
         margin: 5px 0px;
         transition: 1s ;
+        z-index: 101;
     }
     
     #animes4_pc li{
@@ -173,11 +186,12 @@ color: white;
             display: none;
             list-style: none;
             padding: 5px 20px;
-            background: linear-gradient(to top, black, transparent );
+            background: linear-gradient(to top, black, #000  );
             width: 150px;
            border-radius: 20px;
             margin: 5px 0px;
             transition: 1s ;
+            z-index: 1;
         }
         
         #animes5_pc li{
@@ -199,11 +213,12 @@ color: white;
                 display: none;
                 list-style: none;
                 padding: 5px 20px;
-                background: linear-gradient(to top, black, transparent );
+                background: linear-gradient(to top, black, #000 );
                 width: 150px;
                border-radius: 20px;
                 margin: 5px 0px;
                 transition: 1s ;
+                z-index: 1;
             }
             
             #animes6_pc li{
@@ -220,5 +235,402 @@ color: white;
                     text-decoration: none;
                 color: white;
                 }
-                
+
+
+                /* slides */
+
+                .lançamento{
+                    height: 150px;
+                    }
+    
+                    .lançamento h3{
+                    color: greenyellow;
+                    margin: auto;
+                    text-align: center;
+                    padding: 30px 0;
+                    }
+                    
+                    
+                        .wrapper{
+                            display: flex;
+                            align-items: center;
+                            height: 100%;
+                           
+                            }
+                            
+                    .slide-wrapper{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    overflow: hidden;
+                    width: 100%;
+                     
+    
+                    }
+    
+                    .slide-list{
+                        display: flex;
+                        }
+    
+                    .slide-item{
+                    cursor: grab;
+                    padding: 0 5px;
+                    }
+    
+                    .slide-content{
+                     border-radius: 10px;
+                     border: 1px solid #fff;
+                     box-shadow: #070707 0px 12px 12px;
+                     position: relative;
+                    }
+    
+                    .slide-image{
+                        width: 270px;
+                        height: 450px;
+                        border: 2px solid greenyellow;
+                        }
+    
+                    .slide-description{
+                    border-radius: 10px;
+                    background: linear-gradient(to top, #000, transparent);
+                    color: #fff;
+                    position: absolute;
+                    margin: auto;
+                    padding: 10px 0;
+                    bottom: 0;
+                    width: 100%;
+                    }
+    
+                    .slide-description h3{
+                    font-family: 'koulen', sans-serif;
+                    top: 10px;
+                    text-align: center;
+                      font-size: 1rem;
+                      margin: auto;
+                    }
+    
+                    .slide-nav-button{
+                    background: transparent;
+                    color: greenyellow;
+                    cursor: pointer;
+                    font-size: 36px;
+                    position: absolute;
+                    z-index: 1;
+                    }
+    
+                    .slide-nav-previous{
+                    left: 20px;
+                    }
+    
+                    .slide-nav-next{
+                    right: 20px;
+                    }
+    
+                    .slide-controls{
+                    margin: 15px auto 0;
+                    }
+    
+                    
+                   .slide-control-button{
+                     color: white;
+                      cursor: pointer;
+                     background: transparent;
+                       font-size: 15px;
+                       margin: 0 5px;
+        }
+        
+        .slide-control-button.active{
+    
+            color: greenyellow;
+            }
+               
+
+            @media screen and (max-width: 768px) {
+    
+                body{
+                background: #1b1f35;}
             
+                *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                }
+        
+              .img-logo{
+                width: 110px;
+                top: -6px;
+                left: -70px;
+                left: 0;
+            }
+                header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: black;
+                z-index: 101;
+                }
+
+                
+                
+                  header h1 {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 5px 0;
+                  font-size: .80rem;
+                }
+                header h1 a{
+                font-size: 1.1rem;
+                margin: 5px 0;
+                }
+               
+                .botao-header{
+                 font-size: 2.5rem;
+                cursor: pointer;
+                color: greenyellow;
+                padding: 10px 30px;
+            }
+        
+            #menu-celular{
+            right: 0;
+            position: absolute;
+            }
+            .entrar-cadastro{
+            display: none;}
+            #menu-pc{
+                display: none;}
+        
+            #animes_pc{
+                display: none;
+                }
+            
+            .botao-header:hover{
+            color: white;}
+        
+        
+            #animes{
+             display: none;
+            background: #1a1a1a;}
+        
+            
+            #animes li{
+             list-style: none;
+             color: white;
+             font-size: 1rem;
+            padding: 10px 20px;}
+            
+            
+            
+            #animes a {
+            text-decoration: none;
+            color: white;}
+            
+            #animes2{
+            display: none;
+            list-style: none;
+            }
+            
+            #animes2 li{
+                list-style: none;
+             color: white;
+             font-size: .70rem;
+            padding: 10px 20px;
+            border: 2px solid #202020;
+            }
+            
+            #animes2 a{
+            text-decoration: none;
+            color: white;}
+        
+            #animes2 a:hover{
+            color: greenyellow;}
+            
+            .seta-menu{
+                color: greenyellow;
+            font-size: 1rem;
+            cursor: pointer;
+            padding-left: 5px;}
+            
+            
+            
+            #animes3{
+            display: none;
+            list-style: none;}
+            
+            #animes3 li{
+                list-style: none;
+                color: white;
+                font-size: .70rem;
+               padding: 10px 20px;
+               border: 2px solid #202020;
+            }
+            
+            #animes3 a:hover{
+             color: greenyellow;}
+            
+             #animes4{
+            display: none;
+             list-style: none;}
+            
+             #animes4 li{
+                list-style: none;
+                color: white;
+                font-size: .70rem;
+               padding: 10px 20px;
+               border: 2px solid #202020;
+            }
+            
+            #animes4 a:hover{
+            color: greenyellow;}
+            
+            #animes5{
+            display: none;
+            list-style: none;}
+            
+            #animes5 li{
+               color: white;
+            font-size: .70rem;
+            padding: 10px 20px;
+            border: 2px solid #202020;}
+            
+            #animes5 a:hover{
+            color: greenyellow;}
+            
+            #animes6{
+            display: none;
+            list-style: none;}
+            
+            #animes6 li {
+                color: white;
+                font-size: .70rem;
+                padding: 10px 20px;
+                border: 2px solid #202020;
+            }
+        
+            #animes6 a:hover{
+            color: greenyellow;}
+            
+            
+            .entrar-cadastro:hover{
+            background: black;
+            }
+            
+            section h2 {
+                padding: 20px 20px;
+                color: greenyellow;
+            text-align: center;}
+            
+            section h2::before{
+            width: 200px;
+            height: 2px;}
+        
+            /* menu da versao pc */
+        
+           #animes_pc{
+           display: none;
+        }
+            
+        
+        /*slider */
+        
+        .lançamento {
+         height: 100px;
+         
+        }
+        
+        .lançamento h3{
+         color: greenyellow;
+         margin: auto;
+         text-align: center;
+         padding: 30px 0;
+        }
+        
+        
+        .wrapper{
+          display: flex;
+          align-items: center;
+          height: 100%;
+        }
+        
+        .slide-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        }
+        
+        .slide-list{
+        display: flex;
+        }
+        
+        .slide-item{
+        cursor: grab;
+        padding: 0 5px;
+        }
+        
+        .slide-content{
+        border-radius: 10px;
+        border: 1px slod #fff;
+        box-shadow: #070707 0px 12px 12px;
+        position: relative;
+        
+        }
+        .slide-image{
+        width: 200px;
+        height: 350px;
+        border: 2px solid greenyellow;
+        }
+        
+        .slide-description{
+         border-radius: 10px;
+         background: linear-gradient(to top, #000, transparent);
+         color: #fff;
+         position: absolute;
+         margin: auto;
+         padding: 10px 0px;
+         bottom: 0;
+         width: 100%;
+        }
+        
+        .slide-description h3{
+          font-family: 'koulen', sans-serif;
+          top: 10px;
+          text-align: center;
+          font-size: .85rem;
+          margin: auto;
+        }
+        
+        .slide-nav-button{
+         background: transparent;
+         color: greenyellow;
+         cursor: pointer;
+         font-size: 36px;
+         position: absolute;
+         z-index: 1;
+        
+        }
+        .slide-nav-previous{
+        left: 20px;
+        
+        }
+        .slide-nav-next{
+        right: 20px;
+        }
+        
+        .slide-controls{
+        margin: 15px auto 0;
+        }
+        
+        .slide-control-button{
+        color: white;
+        cursor: pointer;
+        background: transparent;
+        font-size: 15px;
+        margin: 0 5px;
+        }
+        
+        .slide-control-button.active{
+        
+        color: greenyellow;
+        }
+            }

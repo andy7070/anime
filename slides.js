@@ -146,7 +146,7 @@ function onTouchEnd(event) {
 }
 
 function onControlButtonClick(index) {
-    setVisibleSlide({ index: index + 2, animate: true })
+    setVisibleSlide({ index: index + 1, animate: true })
 }
 
 function onSlideListTransitionEnd() {
@@ -156,7 +156,7 @@ function onSlideListTransitionEnd() {
         setVisibleSlide({ index: 2, animate: false })
     }
     if(slideItem.classList.contains('slide-cloned') && Number(slideItem.dataset.index) < 0) {
-        setVisibleSlide({ index: slideItems.length - 3, animate: false })
+        setVisibleSlide({ index: slideItems.length - 2, animate: false })
     }
 }
 
