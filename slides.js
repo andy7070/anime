@@ -28,7 +28,7 @@ function getCenterPosition({ index }) {
     const slideItem = slideItems[index]
     const slideWidth = slideItem.clientWidth
     const windowWidth = document.body.clientWidth
-    const margin = (windowWidth - slideWidth) / 2
+    const margin = (windowWidth - slideWidth) / 3
     const position = margin - (index * slideWidth)
     return position
 }
@@ -89,6 +89,7 @@ function createSlideClones() {
     const penultimateSlide = slideItems[slideItems.length - 2].cloneNode(true)
     penultimateSlide.classList.add('slide-cloned')
     penultimateSlide.dataset.index = -2
+    
 
     slideList.append(firstSlide)
     slideList.append(secondSlide)
@@ -146,7 +147,7 @@ function onTouchEnd(event) {
 }
 
 function onControlButtonClick(index) {
-    setVisibleSlide({ index: index + 1, animate: true })
+    setVisibleSlide({ index: index + 2, animate: true })
 }
 
 function onSlideListTransitionEnd() {
@@ -156,7 +157,7 @@ function onSlideListTransitionEnd() {
         setVisibleSlide({ index: 2, animate: false })
     }
     if(slideItem.classList.contains('slide-cloned') && Number(slideItem.dataset.index) < 0) {
-        setVisibleSlide({ index: slideItems.length - 2, animate: false })
+        setVisibleSlide({ index: slideItems.length - 3, animate: false })
     }
 }
 
@@ -207,7 +208,7 @@ function setListeners() {
     })
 }
 
-function initSlider({startAtIndex = 0, autoPlay = true, timeInterval = 1000}) {
+function initSlider({startAtIndex = 0, autoPlay = true, timeInterval = 3000}) {
     state.autoPlay = autoPlay
     state.timeInterval = timeInterval
     createControlButtons()
