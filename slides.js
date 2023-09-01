@@ -28,7 +28,7 @@ function getCenterPosition({ index }) {
     const slideItem = slideItems[index]
     const slideWidth = slideItem.clientWidth
     const windowWidth = document.body.clientWidth
-    const margin = (windowWidth - slideWidth) / 3
+    const margin = (windowWidth - slideWidth) / 2
     const position = margin - (index * slideWidth)
     return position
 }
