@@ -244,7 +244,7 @@ display: flex;
  width: 70vw;
  background: #1a1a1a;
  margin: 30px 30px;
- border-radius: 20px;
+ height: 65vh;
 }
 .pagina{
 display: flex;
@@ -328,18 +328,206 @@ border: 2px solid greenyellow;
 border-radius: 10px;
 }
 
-/*generos*/
+.trailer a {
+text-decoration: none;
+color: greenyellow;
+}
 
-.generos{
-display: inline-block;
-list-style: none;;
+.trailer h3:hover{
+background: greenyellow;
+}
+
+.trailer a:hover{
+color: #fff;
+}
+
+/*generos*/
+.generos {
+position: absolute;
+}
+
+.generos1 h3{
+    border-radius: 5px;
+font-size: .80rem;
+position: relative;
+color: greenyellow;
+margin-top: 180px;
+padding: 0 9px;
+left: -125px;
+border: 1px solid greenyellow;
+width: 80px;
+}
+.generos1 a{
+text-decoration: none;
+color: greenyellow;
+text-align: center;
+margin: auto;
+}
+
+.generos1 h3:hover{
+ background: greenyellow;
+ color: #fff;
+}
+
+.generos2 h3{
+    border-radius: 5px;
+    font-size: .80rem;
+    position: relative;
+    color: greenyellow;
+    margin-top: 180px;
+    padding: 0 16px;
+    left: -120px;
+    border: 1px solid greenyellow;
+    width: 145px;
+
+}
+
+.generos2 a{
+text-decoration: none;
+}
+.generos2 h3:hover{
+background: greenyellow;
+color: #fff;
+}
+
+.generos3 h3{
+    border-radius: 5px;
+    font-size: .80rem;
+    position: relative;
+    color: greenyellow;
+    margin-top: 180px;
+    padding: 0 16px;
+    left: -115px;
+    border: 1px solid greenyellow;
+    width: 100px;
+
+}
+
+.generos3 a{
+    text-decoration: none;
+    }
+    .generos3 h3:hover{
+    background: greenyellow;
+    color: #fff;
+    }
+
+    .generos4 h3{
+        border-radius: 5px;
+        font-size: .80rem;
+        position: relative;
+        color: greenyellow;
+        margin-top: 180px;
+        padding: 0 10px;
+        left: -110px;
+        border: 1px solid greenyellow;
+        width: 100px;
+    
+    }
+    
+    .generos4 a{
+        text-decoration: none;
+        }
+        .generos4 h3:hover{
+        background: greenyellow;
+        color: #fff;
+        }
+
+        .generos{
+         position: absolute;
+        }
+
+       .generos ul{
+        list-style: none !important;
+       position: relative;
+       margin-top: 250px;
+       left: 320px;
+    }
+
+    .generos ul li{
+     color: #fff;
+     
+    }
+   .sinopse{
+   position: absolute;
+   width: 70vw;
+   margin-top: 450px;
+}
+ 
+.sinopse p{
+    font-size: .90rem;
+ color: white;
+ text-align: center;
+ line-height: 1.5rem;
+}
+
+.episodios{
+width: 70vw;
+top: 730px;
+background: #000;
+margin: 0 30px;
+position: absolute;
 
 
 }
 
+.episodios div h2{
+  color: white;
+  text-align: center;
+  position: relative;
+}
 
+.episodios ion-icon{
+ font-size: 1.1rem;
+ padding: 0 5px;
+}
 
-.generos li{
-  color: greenyellow;
+.list-episodios{
+  background: #1a1a1a;
+}
+.list-episodios ul{
+list-style: none;
 
+}
+
+.list-episodios ul li{
+ color: white;
+ padding: 5px 10px;
+ border: 1px solid #fff;
+}
+
+#recomendaçao{
+position: absolute;
+right: 150px;
+}
+#recomendaçao h3{
+    color: greenyellow;
+}
+.recomendados{
+ display: flex;
+ justify-content: space-between;
+ flex-flow: column;
+ position: absolute;
+ columns: 2;
+ right: 50px;
+margin-top: 50px;
+gap: 3rem;
+
+}
+
+.recomendados h3{
+color: greenyellow;
+}
+
+.recomendados-img{
+ width: 200px;
+ height: 300px;
+}
+
+.recom-descriçao{
+position: relative;
+background: #1a1a1a;
+}
+
+.recom-descriçao h3{
+ color: white;
 }
