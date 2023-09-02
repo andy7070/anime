@@ -1,0 +1,345 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+   }
+   
+   body{
+   background: #1b1f35
+   }
+    /*configuraçoes de cabeçario */
+   header div img{
+   width: 120px;
+   }
+
+   ::-webkit-scrollbar{
+    width: 0;
+    overflow: hidden;
+
+   }
+   
+
+   header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   background: black;
+   overflow: hidden;
+   width: 100vw;
+   }
+   
+   .logo-site-mobile{
+    display: none;                   
+   }
+   
+   
+   header div h1{
+       display: flex;
+       align-items: center;
+       margin: 30px auto;
+      font-size: 1rem;
+     font-family: 'koulen', sans-serif;
+   }
+   
+   header div h1 a{
+   text-decoration: none;
+   color: greenyellow;
+   
+   }
+   
+   .logo-site{
+    margin: 0 30px;
+   }
+   
+   
+   #animes{
+   display: none;
+   }
+   
+   .cadastro{
+    padding: 30px 0;
+   }
+   .entrar-cadastro{
+    color: greenyellow;
+    text-decoration: none;
+    padding:  0 50px;
+   }
+       
+       
+       .ep-setinha{
+       font-size: .80rem;
+       padding: 0 5px;
+       cursor: pointer;
+       }
+   
+   #animes_pc{
+      display: flex;
+      justify-content: space-between;
+   padding: 30px 50px;
+   list-style: none;
+   gap: 11rem;
+   color: white;
+   transition: 1s;
+   overflow: hidden;
+   }
+
+   #animes_pc li {
+   font-size: 1rem;
+   }
+   
+   
+   #animes2_pc{
+   display: none;
+   position: absolute;
+    list-style: none;
+    padding: 5px 20px;
+    background: linear-gradient(to top, black, #000  );
+    width: 180px;
+   border-radius: 20px;
+    margin: 5px 0px;
+    transition: 1s ;
+   
+   
+   }
+   #animes2_pc li{
+   font-size: 1rem;
+   line-height: 2rem;
+   text-align: center;
+   z-index: 1;
+   transition: .7s ease-in-out;
+   }
+   #animes2_pc li a:hover{
+   color: greenyellow;
+   }
+   #animes2_pc li a{
+       text-decoration: none;
+   color: white;
+   }
+   
+   
+   #animes3_pc{
+       position: absolute;
+       display: none;
+       list-style: none;
+       padding: 5px 20px;
+       background: linear-gradient(to top, black, #000  );
+       width: 150px;
+      border-radius: 20px;
+       margin: 5px 0px;
+       transition: 1s ;
+       z-index: 1;
+   }
+   
+   #animes3_pc li{
+       font-size: 1rem;
+       line-height: 2rem;
+       text-align: center;
+       z-index: 1;
+       transition: .7s ease-in-out;
+       }
+       #animes3_pc li a:hover{
+       color: greenyellow;
+       }
+       #animes3_pc li a{
+           text-decoration: none;
+       color: white;
+       }
+       
+       #animes4_pc{
+           position: absolute;
+           columns: 2;
+           display: none;
+           list-style: none;
+           padding: 5px 20px;
+           background: linear-gradient(to top, black, #000  );
+           width: 300px;
+          border-radius: 20px;
+           margin: 5px 0px;
+           transition: 1s ;
+           z-index: 101;
+       }
+       
+       #animes4_pc li{
+           font-size: 1rem;
+           line-height: 2rem;
+           text-align: center;
+           margin: auto;
+           z-index: 1;
+           transition: .7s ease-in-out;
+           }
+           #animes4_pc li a:hover{
+           color: greenyellow;
+           }
+           #animes4_pc li a{
+               text-decoration: none;
+           color: white;
+           }
+           
+           #animes5_pc{
+               position: absolute;
+               display: none;
+               list-style: none;
+               padding: 5px 20px;
+               background: linear-gradient(to top, black, #000  );
+               width: 150px;
+              border-radius: 20px;
+               margin: 5px 0px;
+               transition: 1s ;
+               z-index: 1;
+           }
+           
+           #animes5_pc li{
+               font-size: 1rem;
+               line-height: 2rem;
+               text-align: center;
+               z-index: 1;
+               transition: .7s ease-in-out;
+               }
+               #animes5_pc li a:hover{
+               color: greenyellow;
+               }
+               #animes5_pc li a{
+                   text-decoration: none;
+               color: white;
+               }
+               #animes6_pc{
+                   position: absolute;
+                   display: none;
+                   list-style: none;
+                   padding: 5px 20px;
+                   background: linear-gradient(to top, black, #000 );
+                   width: 150px;
+                  border-radius: 20px;
+                   margin: 5px 0px;
+                   transition: 1s ;
+                   z-index: 1;
+               }
+               
+               #animes6_pc li{
+                   font-size: 1rem;
+                   line-height: 2rem;
+                   text-align: center;
+                   z-index: 1;
+                   transition: .7s ease-in-out;
+                   }
+                   #animes6_pc li a:hover{
+                   color: greenyellow;
+                   }
+                   #animes6_pc li a{
+                       text-decoration: none;
+                   color: white;
+                   }
+ /* mechendo nas paginas dos animes versao pc */
+
+ #conteudo_pc{
+display: flex;
+ justify-content: space-between;
+ width: 70vw;
+ background: #1a1a1a;
+ margin: 30px 30px;
+ border-radius: 20px;
+}
+.pagina{
+display: flex;
+justify-content: space-between;
+}
+
+.img-conteudo{
+    padding: 10px 10px;
+}
+.img-conteudo img{
+width: 300px;
+border-radius: 20px;
+}
+
+.descriçao_pagina{
+margin: 0px 0px;
+ 
+}
+
+.descriçao_pagina h3{
+text-align: center;
+margin: auto;
+color: #fff;
+}
+.descriçao_pagina h4{
+    font-size: .80rem;
+    text-align: center;
+    color: #fff;
+    }
+    .descriçao_pagina h5{
+        text-align: center;
+        color: #fff;
+        }
+
+
+.pagina-h31{
+font-size: 1rem;
+margin: 5px 0;
+text-align: center;
+right: 570px;
+position: absolute;
+color: #fff;
+border: 1 pix solid #1a1a1a;
+background: #000;
+width: 80px;
+border-radius: 10px;
+}
+
+.pagina-h32{
+    font-size: 1.5rem;
+    text-align: center;
+position: absolute;
+padding: 30px 0;
+right: 590px;
+color: #fff;
+}
+
+.pagina-h3{
+    font-size: .80rem;
+    margin-left: 20px;
+    text-align: center;
+    position: absolute;
+    padding: 60px 0;
+    right: 587px;
+    color: #fff;
+}
+.trailer{
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    padding: 90px 0;
+    right: 567px;
+    color: #fff;
+}
+
+.trailer h3{
+    width: 80px;
+    text-align: center;
+border: 2px solid greenyellow;
+border-radius: 10px;
+}
+
+/*generos*/
+
+.generos{
+display: inline-block;
+list-style: none;;
+
+
+}
+
+
+
+.generos li{
+  color: greenyellow;
+
+}
