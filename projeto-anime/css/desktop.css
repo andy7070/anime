@@ -11,7 +11,9 @@
 }
 
 body{
-background: #1b1f35
+background: #1b1f35;
+width: 100%;
+
 }
  /*configuraçoes de cabeçario */
 header div img{
@@ -21,6 +23,7 @@ margin-bottom: 20px;
 position: absolute;
 bottom: 0;
 top: -38px;
+
 }
 
 header{
@@ -28,6 +31,8 @@ display: flex;
 justify-content: space-between;
 height: 100px;
 background: black;
+overflow: hidden;
+width: 100vw;
 }
 
 .logo-site-mobile{
@@ -37,7 +42,7 @@ background: black;
 
 header h1{
     display: flex;
-    justify-content: space-between;
+    padding-left: 120px;
     align-items: center;
     margin: 30px auto;
 font-size: 1.1rem;
