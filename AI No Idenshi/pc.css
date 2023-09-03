@@ -502,32 +502,73 @@ right: 150px;
 #recomendaçao h3{
     color: greenyellow;
 }
-.recomendados{
- display: flex;
- justify-content: space-between;
- flex-flow: column;
- position: absolute;
- columns: 2;
- right: 50px;
-margin-top: 50px;
-gap: 3rem;
 
-}
-
-.recomendados h3{
-color: greenyellow;
+.seçao-recomendados{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+flex-flow: wrap;
+columns: 2;
+position: absolute;
+right: 0;
+gap: 2rem;
+width: 30vw;
+padding: 0 30px;
 }
 
 .recomendados-img{
- width: 200px;
- height: 300px;
-}
-
-.recom-descriçao{
+width: 200px;
+height: 350px;
+top: -550px;
 position: relative;
-background: #1a1a1a;
+border: 1px solid greenyellow;
+
 }
 
-.recom-descriçao h3{
- color: white;
+#recomendaçao{
+    position: absolute;
+top: -635px;
+bottom: 0;
+
 }
+.recom-descriçao{
+position: absolute;
+top: -225px;
+background: linear-gradient(to top, #000, transparent);
+width: 200px;
+}
+.recom-descriçao h3{
+    position: relative;
+    text-align: center;
+color: #fff;
+font-size: 1rem;
+}
+
+.recom-descriçao2{
+    position: absolute;
+    top: 164px;
+    background: linear-gradient(to top, #000, transparent);
+    width: 200px;
+    }
+
+    .recom-descriçao2 h3{
+      position: relative;
+      text-align: center;
+      font-size: 1rem;
+      color: white;
+    }
+
+    .recom-descriçao3{
+        position: absolute;
+        top: 553px;
+        background: linear-gradient(to top, #000, transparent);
+        width: 200px;
+        }
+
+        .recom-descriçao3 h3{
+            position: relative;
+            text-align: center;
+            font-size: 1rem;
+            color: white;
+          }
+    
