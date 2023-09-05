@@ -479,6 +479,8 @@ position: absolute;
 .episodios ion-icon{
  font-size: 1.1rem;
  padding: 0 5px;
+ cursor: pointer;
+ transform: rotate(180deg);
 }
 
 .list-episodios{
@@ -571,4 +573,120 @@ font-size: 1rem;
             font-size: 1rem;
             color: white;
           }
+
+         
+
+
+          .form{
+           display: flex;
+           position: relative;
+           bottom: -450px;
+           width: 70vw;
+           margin: 0 30px;
+        }
+
+
+        .form textarea{
+            display: flex;
+           flex-wrap: wrap;
+        width: 70vw;
+        height: 150px;
+        }
+
+        textarea{
+        resize: none;}
+
+        .input{
+         display: flex;
+         position: relative;
+         bottom: -455px;
+         margin: 0 30px;
+        }
+
+        .input input{
+        width: 100px;
+        position: absolute;
+        right: 515px; 
+        cursor: pointer;       
+    }
+
+    .input input:hover{
+      background: greenyellow;
+      color: #fff;
+    }
+
+    .coment-logar{
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+     margin: 0 30px;
+     width: 70vw;
+     bottom: -450px;
+    }
+
+    .coment-logar h3{
+    color: #fff;
+    }
+
+    .coment-logar a{
+    text-decoration: none;
+    color: greenyellow;
+    }
+
+    .coment-logar a:hover{
+    color: #fff;
+    }
     
+  /*rodapé do site */
+
+    .final{
+     display: flex;
+     justify-content: space-between;
+   align-items: center;
+     position: absolute;
+    }
+
+ .img1-rodapé{
+     width: 300px;
+     height: 400px;
+     position: absolute;
+     bottom: -900px;
+     left: 20px;
+    }
+
+    .img2-rodapé{
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        bottom: -930px;
+        left: 83vw;
+    }
+    .final div h3{
+        position: relative;
+        bottom: -890px;
+        left: 550px;
+        font-size: .90rem;
+        color: greenyellow;
+    }
+    .final div a{
+    color: white;
+    }
+
+
+    /* iframes */
+
+    iframe{
+    position: relative;
+    z-index: 10;
+    height: 45vw;
+    left: 10vw;
+    top: calc(50vh - 59.5vw);
+    width: 80vw;
+    background-color: rgb(26, 26, 26);
+    border-radius: 4px;
+    display: flex;
+    transition: .7s;
+    display: none;
+    }
+
+ 

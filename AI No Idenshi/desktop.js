@@ -44,6 +44,32 @@ animes6_pc.style.display = 'block'
 
 }
 
+const abrirFechar = document.getElementById('abrir-menu-fechar')
+const seta = document.getElementById('setinha-ep')
+const frames = document.getElementById('frames')
+const clickTrailer = document.getElementById('click')
+
+seta.addEventListener('click', function() {
+  if(abrirFechar.style.display == 'none'){
+     abrirFechar.style.display = 'block'
+  } else{
+  abrirFechar.style.display = 'none'
+  }
+   if(seta.style.transform == 'rotate(0deg)'){
+    seta.style.transform = 'rotate(180deg)'
+  } else {
+   seta.style.transform = 'rotate(0deg)'
+  }
+})
+
+
+clickTrailer.addEventListener('click', function(){
+ if(frames.style.display =='block'){
+ frames.style.display = 'none'
+} else{
+frames.style.display = 'block'
+}
+})
 
 
 
