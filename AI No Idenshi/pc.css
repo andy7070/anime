@@ -1001,7 +1001,7 @@ font-size: 1rem;
          .episodios{
          width: 100%;
          background: transparent;
-         margin: 720px 0;
+         margin: 780px 0;
          position: absolute;
          
          
@@ -1132,6 +1132,7 @@ font-size: 1rem;
                  width: 98%;
                  margin-left: 2px;
                  position: absolute;
+                
                  
                  
                 }
@@ -1139,14 +1140,14 @@ font-size: 1rem;
                  textarea{
                     height: 150px;
                     margin: auto;
-                   top: 108vh;
+                   top: 120vh;
                     position: relative;
                  resize: none;}
          
                  .input{
                   display: flex;
                   position: relative;
-                  bottom: -630px;
+                  bottom: -715px;
                   margin: auto;
                  }
          
@@ -1168,11 +1169,11 @@ font-size: 1rem;
               display: flex;
               justify-content: space-between;
               position: relative;
-              left: -20px;
+              left: -10px;
               right: 0;
               padding: auto;
               width: 90%;
-              top: 830px;
+              top: 915px;
               bottom: 0;
               overflow: hidden;
              }
@@ -1219,8 +1220,8 @@ font-size: 1rem;
              .final div h3{
                 display: block;
                  position: relative;
-                 bottom: -1020px;
-                 padding: 15px 0;
+                 bottom: -1150px;
+                 padding: 15px 5px;
                  left: 5px;
                  font-size: .90rem;
                  color: greenyellow;
