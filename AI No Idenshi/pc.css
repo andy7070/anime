@@ -5,13 +5,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: 'Poppins', sans-serif;
    
    }
    
    body{
-   background: #1b1f35
+   background: #1b1f35;
    }
     /*configuraçoes de cabeçario */
    header div img{
@@ -771,6 +771,16 @@ display: none;
 .conteudo-animes{
  display: none;
 }
+
+#enviar{
+display: none;
+}
+
+#final-mobile{
+display: none;
+}
+
+
     /* telas com até 768px */
 
     @media screen and (max-width: 768px) {
@@ -790,7 +800,42 @@ display: none;
         text-decoration: none;
     color: greenyellow;
     }
-     
+
+    .formularios2{
+     display: block;
+     padding: 0 5px;
+    }
+    .formularios2 textarea{
+     width: 100%;
+    }
+
+    #enviar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 7px;
+        }
+
+        #enviar input{
+        width: 100px;
+        }
+
+        .footer{
+            display: block;
+            position: absolute;
+         height: 1px;
+          bottom: -1900px;
+          padding: 0 15px;    
+        }
+
+        .footer h3{
+         color: white;
+         font-size: .90rem;
+        }
+
+
+        
+      
         #conteiner{
             display: block;
 
@@ -798,6 +843,10 @@ display: none;
             #container2{
                 display: block;
                }
+
+               #frames2{
+              height: 50px;
+            }
 
                #frames2 iframe {
                 position: absolute;
