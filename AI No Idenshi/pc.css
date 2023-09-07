@@ -448,95 +448,43 @@ color: #fff;
 
 
 /*generos*/
-.generos {
+
+.generos-list{
+ display: flex;
+
+}
+
+.generos-list ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
 position: absolute;
+top: 280px;
+left: 350px;
+gap: 1rem;
 }
 
-.generos1 h3{
-    border-radius: 5px;
-font-size: .80rem;
-position: relative;
-color: greenyellow;
-margin-top: 180px;
-padding: 0 9px;
-left: -125px;
-border: 1px solid greenyellow;
-width: 80px;
-}
-.generos1 a{
-text-decoration: none;
-color: greenyellow;
-text-align: center;
-margin: auto;
-}
-
-.generos1 h3:hover{
- background: greenyellow;
- color: #fff;
-}
-
-.generos2 h3{
-    border-radius: 5px;
+.generos-list ul li{
     font-size: .80rem;
-    position: relative;
-    color: greenyellow;
-    margin-top: 180px;
-    padding: 0 16px;
-    left: -120px;
-    border: 1px solid greenyellow;
-    width: 145px;
-
+    padding: 0 10px;
+color: greenyellow;
+border: 2px solid greenyellow;
+border-radius: 7px;
 }
 
-.generos2 a{
+.generos-list ul li a {
 text-decoration: none;
+color: greenyellow;
 }
-.generos2 h3:hover{
+.generos-list ul li a:hover{
+ color: black;
+}
+
+.generos-list ul li:hover{
 background: greenyellow;
-color: #fff;
 }
 
-.generos3 h3{
-    border-radius: 5px;
-    font-size: .80rem;
-    position: relative;
-    color: greenyellow;
-    margin-top: 180px;
-    padding: 0 16px;
-    left: -115px;
-    border: 1px solid greenyellow;
-    width: 100px;
-
-}
-
-.generos3 a{
-    text-decoration: none;
-    }
-    .generos3 h3:hover{
-    background: greenyellow;
-    color: #fff;
-    }
-
-    .generos4 h3{
-        border-radius: 5px;
-        font-size: .80rem;
-        position: relative;
-        color: greenyellow;
-        margin-top: 180px;
-        padding: 0 10px;
-        left: -110px;
-        border: 1px solid greenyellow;
-        width: 100px;
-    
-    }
-    
-    .generos4 a{
-        text-decoration: none;
-        }
-        .generos4 h3:hover{
-        background: greenyellow;
-        color: #fff;
-        }
 
         .generos{
          position: absolute;
@@ -554,16 +502,21 @@ color: #fff;
      
     }
    .sinopse{
+    display: flex;
    position: absolute;
    width: 70vw;
    margin-top: 450px;
+   padding: 0 5px;
+   
 }
  
 .sinopse p{
+    position: relative;
+    width: 70VW;
     font-size: .90rem;
  color: white;
  text-align: justify;
- line-height: 1.5rem;
+ line-height: 1.2rem;
 }
 
 .episodios{
@@ -812,6 +765,7 @@ font-size: 1rem;
             overflow: hidden;
         
            }
+       
            
         
            header{
@@ -820,21 +774,22 @@ font-size: 1rem;
            align-items: center;
            height: 100px;
            background: black;
+           width: 105%;
            overflow: hidden;
-           width: 100vw;
+           margin: 0 0;
            }
-
+    
             header div img{
              width: 120px;
+             margin: 0 0;
             }
          
             
             
             header div h1{
-                display: flex;
-                align-items: center;
                font-size: .90rem;
               font-family: 'koulen', sans-serif;
+              margin: 0 0;
             }
             
             header div h1 a{
@@ -842,7 +797,7 @@ font-size: 1rem;
             color: greenyellow;
             
             }
-
+    
             
             
             
@@ -850,16 +805,15 @@ font-size: 1rem;
             #animes_pc{
              display: none;
             }
-
+    
             .cadastro{
              display: none;
             }
-
+    
             .botao-header{
              padding: 0 30px;
              font-size: 3rem;
              color: greenyellow;
-             z-index: 10;
             }
                 
                 
@@ -878,9 +832,9 @@ font-size: 1rem;
          display: block;
          position: relative;
          }
-
+    
          .img-conteudo{
-         margin: 170px 50px;
+         margin: 170px 35px;
         }
          
         
@@ -906,7 +860,7 @@ font-size: 1rem;
          position: absolute;
          font-size: 1.5rem;
          }
-
+    
          .descriçao_pagina h4{
              font-size: 1rem;
              text-align: center;
@@ -964,7 +918,7 @@ font-size: 1rem;
              text-align: center;
              position: absolute;
              padding: 90px 0;
-             right: 20px;
+             right: 25px;
              top: 5px;
              color: #fff;
          }
@@ -990,109 +944,32 @@ font-size: 1rem;
          }
          
          /*generos*/
-         .generos {
-         position: absolute;
-         }
-        
-         
-         .generos1 h3{
-            border-radius: 5px;
-         font-size: .80rem;
-         position: relative;
-         color: greenyellow;
-         margin-top: auto;
-         top: -130px;
-         left: 1vw;
-         border: none;
-         width: 80px;
-         }
-         .generos1 a{
-         text-decoration: none;
-         color: greenyellow;
-         text-align: center;
-         margin: auto;
-         }
-         
-         .generos1 h3:hover{
-          background: none;
-          color: #fff;
-         }
-         
-         .generos2 h3{
-             border-radius: 5px;
-             font-size: .80rem;
-             position: relative;
-             color: greenyellow;
-             margin-top: auto;
-             padding: 0 15px;
-             top: -149px;
-             left: 20vw;
-             border: none;
-             width: 140px;
-         
-         }
-         .generos2 h3:hover{
-          background: none;
+      
+        .generos-list{
+         display: flex;
+        }
+    
+        .generos-list ul{
+            position: relative;
+          left: 10px;
+          top: -150px;
+          gap: .5rem;
         }
          
-         .generos2 a{
-         text-decoration: none;
-         }
-        
-         .generos3 h3{
-             font-size: .80rem;
-             position: relative;
-             text-align: center;
-             color: greenyellow;
-             margin-top: auto;
-             padding: 0 1px;
-             top: -168px;
-             left: 55vw;
-             border: transparent;
-             width: 80px;
-         
-         }
-         
-         .generos3 a{
-             text-decoration: none;
-             }
-             .generos3 h3:hover{
-                color: #fff;
-                background: none;
-                }
-            
-             .generos4 h3{
-                 border-radius: 5px;
-                 font-size: .80rem;
-                 position: relative;
-                 color: greenyellow;
-                 margin-top: 180px;
-                 padding: 0 0px;
-                 top: -367px;
-                 left: 80vw;
-                 border: none;
-                 width: 100px;
-             
-             }
-             
-             .generos4 a{
-                 text-decoration: none;
-                 }
-                 .generos4 h3:hover{
-                 background: none;
-                 color: #fff;
-                 }
-         
-                 .generos{
-                  position: relative;
-                 }
-         
+        .generos-list  ul li{
+         font-size: .70rem;
+        }
+    
+            .generos{
+             position: relative;  
+             top: 250px;
+            }
                 .generos ul{
                  list-style: none !important;
-                position: absolute;
+                position: relative;
                 margin-top: auto;
                 left: 5vw;
-                top: -330px;
+                top: -350px;
                 font-size: 1.2rem;
                 width: 100vw;
              }
@@ -1103,25 +980,25 @@ font-size: 1rem;
              }
             .sinopse{
               display: flex;
-              width: 100%;
-            position: relative;
-            margin-top:auto;
-            left: 0;
-            right: 0;
+             position: relative;
+            margin-top:10px;
             bottom: 80px;
+            padding: 0 2px;
+            z-index: 1;
          }
           
          .sinopse p{
-             font-size: .95rem;
+          font-size: .95rem;
           color: white;
-          text-align: justify;
           line-height: 1.5rem;
           position: absolute;
-          padding-left: 5px;
+          width: 95vw;
+          padding-left: 10px;
+         
+          
          }
          
          .episodios{
-            display: block;
          width: 100%;
          background: transparent;
          margin: 720px 0;
@@ -1135,11 +1012,13 @@ font-size: 1rem;
            color: white;
            text-align: center;
            position: relative;
+           margin: 5px 0;
          }
          
          .episodios ion-icon{
             position: relative;
           font-size: 1.1rem;
+          color: greenyellow;
           padding: 0 5px;
           cursor: pointer;
           transform: rotate(180deg);
@@ -1147,6 +1026,7 @@ font-size: 1rem;
          
          .list-episodios{
            background: #1a1a1a;
+           margin: 0 10px;
          }
          .list-episodios ul{
          list-style: none;
@@ -1158,13 +1038,14 @@ font-size: 1rem;
           color: white;
           padding: 5px 10px;
           border: 1px solid #fff;
-
+    
          }
          
          #recomendaçao{
          position: absolute;
          right: 150px;
          display: none;
+;
          }
          #recomendaçao h3{
              color: greenyellow;
@@ -1172,6 +1053,7 @@ font-size: 1rem;
          
          .seçao-recomendados{
          display: none;
+
         
          }
          
@@ -1181,13 +1063,14 @@ font-size: 1rem;
          top: -550px;
          position: relative;
          border: 1px solid greenyellow;
-         
+
          }
          
          #recomendaçao{
              position: absolute;
          top: -635px;
          bottom: 0;
+
          
          }
          .recom-descriçao{
@@ -1195,6 +1078,7 @@ font-size: 1rem;
          top: -225px;
          background: linear-gradient(to top, #000, transparent);
          width: 200px;
+         
          }
          .recom-descriçao h3{
              position: relative;
@@ -1238,15 +1122,16 @@ font-size: 1rem;
                     display: flex;
                     position: relative;
                     bottom: 0;
-                    width: 106%;
+                    width: 97%;
                     margin:auto;
                     padding: auto;
                  }
          
          
                  .form textarea{
-                 width: 100%;
-                 margin-left: 0px;
+                 width: 98%;
+                 margin-left: 2px;
+                 position: absolute;
                  
                  
                 }
@@ -1254,23 +1139,24 @@ font-size: 1rem;
                  textarea{
                     height: 150px;
                     margin: auto;
-                   top: 105vh;
+                   top: 108vh;
                     position: relative;
                  resize: none;}
          
                  .input{
                   display: flex;
                   position: relative;
-                  bottom: -455px;
+                  bottom: -630px;
                   margin: auto;
                  }
          
                  .input input{
-                 width: 100px;
+                 width: 80px;
                  position: absolute;
-                 right: -20px; 
+                 right: 10px; 
                  cursor: pointer;
-                 top: 365px;       
+                 top: 365px;
+                 border-radius: 10px;       
              }
          
              .input input:hover{
@@ -1285,9 +1171,10 @@ font-size: 1rem;
               left: -20px;
               right: 0;
               padding: auto;
-              width: 100%;
-              top: 790px;
+              width: 90%;
+              top: 830px;
               bottom: 0;
+              overflow: hidden;
              }
          
              .coment-logar h3{
@@ -1332,9 +1219,9 @@ font-size: 1rem;
              .final div h3{
                 display: block;
                  position: relative;
-                 bottom: -900px;
+                 bottom: -1020px;
                  padding: 15px 0;
-                 left: 15px;
+                 left: 5px;
                  font-size: .90rem;
                  color: greenyellow;
              }
@@ -1358,11 +1245,15 @@ font-size: 1rem;
              transition: 5s;
              display: none;
              }
-
-
-
-    }
-
+    
+            }
+    
+    
+    
+    
+    
+    
+    
 
 
 
