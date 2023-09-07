@@ -48,6 +48,11 @@ const abrirFechar = document.getElementById('abrir-menu-fechar')
 const seta = document.getElementById('setinha-ep')
 const frames = document.getElementById('frames')
 const clickTrailer = document.getElementById('click')
+const teste = document.getElementById('sair')
+
+let a = 0
+
+
 
 seta.addEventListener('click', function() {
   if(abrirFechar.style.display == 'none'){
@@ -69,7 +74,12 @@ clickTrailer.addEventListener('click', function(){
 } else{
 frames.style.display = 'block'
 }
+
+
+
 })
+
+
 
 
 
