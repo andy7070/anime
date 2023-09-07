@@ -51,7 +51,7 @@ const seta = document.getElementById('setinha-ep')
 const frames = document.getElementById('frames')
 const clickTrailer = document.getElementById('click')
 const teste = document.getElementById('sair')
-
+const teste2 = document.getElementById('click2')
 let a = 0
 
 
@@ -67,6 +67,14 @@ seta.addEventListener('click', function() {
   } else {
    seta.style.transform = 'rotate(0deg)'
   }
+})
+
+teste2.addEventListener('click', function(){
+ if(frames.style.display == 'block'){
+ frames.style.display = 'none'
+}else{
+ frames.style.display = 'block'
+}
 })
 
 

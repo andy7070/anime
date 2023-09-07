@@ -41,9 +41,9 @@ function clickMenu(){
 
 
   function setaEp(){
-    if(epep.style.display == 'block'){
-    epep.style.display = 'none'} else{
-    epep.style.display = 'block'}
+    if(epep.style.display == 'none'){
+    epep.style.display = 'block'} else{
+    epep.style.display = 'none'}
 
     epep.style.transition = '0.7s'
 
