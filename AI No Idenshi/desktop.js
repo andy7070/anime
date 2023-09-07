@@ -1,4 +1,6 @@
 
+
+
 function menu1(){
   if(animes2_pc.style.display == 'block'){
   animes2_pc.style.display = 'none'
@@ -74,7 +76,7 @@ clickTrailer.addEventListener('click', function(){
 } else{
 frames.style.display = 'block'
 }
-
+clickTrailer.style.transition = ' transform 5s ease-in-out linear'
 
 
 })

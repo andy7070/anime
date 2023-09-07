@@ -5,7 +5,7 @@ function clickMenu(){
   } else {
     animes.style.display = 'block'
   }
-
+  teste0.style.transitionDuration = 'bottom 3s'
    
   }
   

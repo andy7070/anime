@@ -341,9 +341,9 @@ color: #fff;
 /* menu dos animes*/
 
 #animes{
-    width: 105%;
+    width: 106%;
     display: none;
-   background: #1a1a1a;}
+   background: #1a1a1a; }
 
    
    #animes li{
@@ -361,6 +361,7 @@ color: #fff;
    #animes2{
    display: none;
    list-style: none;
+   z-index: 10;
    }
    
    #animes2 li{
@@ -441,6 +442,9 @@ color: #fff;
    #animes6 a:hover{
    color: greenyellow;}
    
+   #teste1{
+  transition: bottom 2s;
+}
 
 
 /*generos*/
@@ -783,11 +787,11 @@ font-size: 1rem;
     position: relative;
     z-index: 10;
     height: 30vw;
-    left: 10vw;
-    top: calc(50vh - 59.5vw);
+    left: 22vw;
+    top: calc(50vh - 58.5vw);
     width: 50vw;
     background-color: rgb(26, 26, 26);
-    border-radius: 4px;
+    border-radius: 20px;
     display: flex;
     transition: .7s;
     display: none;
@@ -849,6 +853,7 @@ font-size: 1rem;
              padding: 0 30px;
              font-size: 3rem;
              color: greenyellow;
+             z-index: 10;
             }
                 
                 
@@ -1337,12 +1342,12 @@ font-size: 1rem;
              iframe{
              position: relative;
              z-index: 10;
-             height: 50vh;
+             height: 30vh;
              left: 3vw;
              top: calc(50vh - 330.5vw);
              width: 100%;
              background: rgb(26, 26, 26);
-             border-radius: 4px;
+             border-radius: 20px;
              display: flex;
              transition: 1s;
              display: none;
