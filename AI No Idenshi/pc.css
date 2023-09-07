@@ -807,14 +807,22 @@ font-size: 1rem;
 
     @media screen and (max-width: 768px) {
      
-        header{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 120px;
-            background: black;
-            width: 106%;
-            }
+        ::-webkit-scrollbar{
+            width: 0;
+            overflow: hidden;
+        
+           }
+           
+        
+           header{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           height: 100px;
+           background: black;
+           overflow: hidden;
+           width: 106vw;
+           }
 
             header div img{
              width: 120px;
@@ -836,9 +844,7 @@ font-size: 1rem;
             }
 
             
-            .logo-site{
-             margin: auto auto;
-            }
+            
             
             
             #animes_pc{
@@ -1326,7 +1332,7 @@ font-size: 1rem;
              .final div h3{
                 display: block;
                  position: relative;
-                 bottom: -990px;
+                 bottom: -900px;
                  padding: 15px 0;
                  left: 15px;
                  font-size: .90rem;
@@ -1349,7 +1355,7 @@ font-size: 1rem;
              background: rgb(26, 26, 26);
              border-radius: 20px;
              display: flex;
-             transition: 1s;
+             transition: 5s;
              display: none;
              }
 
