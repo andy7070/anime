@@ -822,15 +822,28 @@ display: none;
 
         .footer{
             display: block;
-            position: absolute;
+            position: relative;
          height: 1px;
-          bottom: -1900px;
+          bottom: -100px;
           padding: 0 15px;    
         }
 
         .footer h3{
          color: white;
          font-size: .90rem;
+        }
+
+        .img-final{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        bottom: -250px;
+        
+        }
+
+        .img-final img{
+        width: 180px;
         }
 
 
