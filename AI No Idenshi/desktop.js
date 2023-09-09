@@ -82,14 +82,8 @@ teste2.addEventListener('click', function(){
 
 
 clickTrailer.addEventListener('click', function(){
- if(frames.style.display =='block'){
- frames.style.display = 'none'
-} else{
 frames.style.display = 'block'
-}
-clickTrailer.style.transition = ' transform 5s ease-in-out linear'
 
-            
 })
 
 
@@ -98,8 +92,9 @@ fechartrailer.addEventListener('click', function(){
  frames.style.display = 'none'
  setafechar.style.display = 'none'
 
- fechartrailer.display.transitionDuration = '1s'
-})
+ 
+}
+)
 
 
 
