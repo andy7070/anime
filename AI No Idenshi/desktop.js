@@ -54,6 +54,7 @@ const teste = document.getElementById('sair')
 const teste2 = document.getElementById('click2')
 const teste3 = document.getElementById('iframes')
 const setafechar = document.getElementById('icon_fechar')
+const fechartrailer = document.getElementById('fechar_trailer')
 let a = 0
 
 
@@ -72,17 +73,11 @@ seta.addEventListener('click', function() {
 })
 
 teste2.addEventListener('click', function(){
-  if(frames.style.display == 'block'){
-  frames.style.display = 'none'
- }else{
   frames.style.display = 'block'
- }
-  if(setafechar.style.display == 'block'){
-  setafechar.style.display = 'none'
-  } else {
   setafechar.style.display = 'block'
-  }
 })
+
+
 
 
 
@@ -99,7 +94,12 @@ clickTrailer.style.transition = ' transform 5s ease-in-out linear'
 
 
 
+fechartrailer.addEventListener('click', function(){
+ frames.style.display = 'none'
+ setafechar.style.display = 'none'
 
+ fechartrailer.display.transitionDuration = '1s'
+})
 
 
 
