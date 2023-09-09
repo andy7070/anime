@@ -1276,8 +1276,21 @@ display: none;
                     transition: .7s;
                     display: none;
                     }
-        
-          
+
+
+                  
+                    #icon_fechar{
+                     display: none;
+                    }
+                   
+                #icon_fechar ion-icon{
+                     font-size: 3rem;
+                     color: greenyellow;
+                     position: absolute;
+                     left: 20px;
+                     top: 220px;
+                     z-index: 10;
+                    }
                 
     
     
