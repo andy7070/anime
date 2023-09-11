@@ -803,22 +803,30 @@ display: none;
            
            #container-img-mobile{
             display: flex;
-            gap: .80rem;
-            overflow: hidden;
-            padding: 0 5px;
-        }
+           justify-content: space-between;
+           align-items: center;
+          
+           }
 
         #container-img-mobile img{
           width: 180px;
           height: 300px;
         }
-        .slid-item{
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         position: relative;
 
+        #slid-item{
+            overflow: hidden;
+            position: relative;
         }
+       
+        #slid-content{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         gap: 20px;
+         padding: 0 5px;
+         position: relative;
+     }
+        
 
 
         #container-mobile-descriçao{
@@ -833,6 +841,21 @@ display: none;
          color: white;
          position: relative;
          text-align: center;
+        }
+
+        #button-recomendados{
+         display: flex;
+         position: absolute;
+     
+        }
+
+        #right-button{
+            position: relative;
+            color: greenyellow;
+            font-size: 3rem;
+            z-index: 1;
+         right: -320px;
+         bottom: -180px;
         }
 
 
