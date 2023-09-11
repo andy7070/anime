@@ -815,7 +815,6 @@ display: none;
 
         #slid-item{
             overflow: hidden;
-            position: relative;
         }
        
         #slid-content{
