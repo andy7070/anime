@@ -1266,8 +1266,8 @@ display: none;
                  iframe{
                     position: absolute;
                     z-index: 10;
-                    height: 30vw;
-                    left: 50vw;
+                    height: 50vw;
+                    left: 2vw;
                     top: calc(50vh - 10.5vw);
                     width: 95vw;
                     background-color: rgb(26, 26, 26);
