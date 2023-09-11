@@ -805,6 +805,7 @@ display: none;
             display: flex;
            justify-content: space-between;
            align-items: center;
+           transition: transform 1s;
           
            }
 
@@ -815,6 +816,8 @@ display: none;
 
         #slid-item{
             overflow: hidden;
+            
+            
         }
        
         #slid-content{
@@ -824,6 +827,7 @@ display: none;
          gap: 20px;
          padding: 0 5px;
          position: relative;
+         
      }
         
 
@@ -1265,7 +1269,7 @@ display: none;
            padding: 0 10px;
            transform: rotateX(180deg);}
            
-           
+         
            
            .ep-ep{
             
