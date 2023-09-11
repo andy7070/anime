@@ -780,10 +780,65 @@ display: none;
 display: none;
 }
 
+ #recomendados-mobile{
+ display: none;
+}
+
 
     /* telas com até 768px */
 
     @media screen and (max-width: 768px) {
+         /*seçao de imagens recomendadas da versao mobile */
+
+        #recomendados-mobile{
+            display: block;
+           }
+
+           #recomendados-mobile h3{
+          color: greenyellow;
+          text-align: center;
+          margin: 10px 0;
+        
+        }
+           
+           #container-img-mobile{
+            display: flex;
+            gap: .80rem;
+            overflow: hidden;
+            padding: 0 5px;
+        }
+
+        #container-img-mobile img{
+          width: 180px;
+          height: 300px;
+        }
+        .slid-item{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+
+        }
+
+
+        #container-mobile-descriçao{
+        position: absolute;
+        background: linear-gradient(to top, #000, transparent);
+        width: 180px;
+        bottom: 0;
+        
+        }
+
+        #container-mobile-descriçao h4{
+         color: white;
+         position: relative;
+         text-align: center;
+        }
+
+
+      /* fim */
+
+
         #container3{
             display: block;
             }

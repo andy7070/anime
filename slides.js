@@ -217,3 +217,6 @@ function initSlider({startAtIndex = 0, autoPlay = true, timeInterval = 3000}) {
     setVisibleSlide({ index: startAtIndex + 2, animate: true })
     setAutoPlay()
 }
+
+
+
