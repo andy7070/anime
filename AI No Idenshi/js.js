@@ -54,11 +54,4 @@ function clickMenu(){
     
   }
 
-  const setaRight = document.getElementById('right-button')
-  let contador = 0
-    
- setaRight.addEventListener('click', function(){
- contador = contador - 190
-const element = document.getElementById('container-img-mobile')
- element.style = `transform: translateX(${contador}px)`
-})
+ 

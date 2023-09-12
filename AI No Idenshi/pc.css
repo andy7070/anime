@@ -800,67 +800,7 @@ display: none;
           margin: 10px 0;
         
         }
-           
-           #container-img-mobile{
-            display: flex;
-           justify-content: space-between;
-           align-items: center;
-           transition: transform 1s;
-          
-           }
-
-        #container-img-mobile img{
-          width: 180px;
-          height: 300px;
-        }
-
-        #slid-item{
-            overflow: hidden;
-            
-            
-        }
        
-        #slid-content{
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         gap: 20px;
-         padding: 0 5px;
-         position: relative;
-         
-     }
-        
-
-
-        #container-mobile-descriçao{
-        position: absolute;
-        background: linear-gradient(to top, #000, transparent);
-        width: 180px;
-        bottom: 0;
-        
-        }
-
-        #container-mobile-descriçao h4{
-         color: white;
-         position: relative;
-         text-align: center;
-        }
-
-        #button-recomendados{
-         display: flex;
-         position: absolute;
-     
-        }
-
-        #right-button{
-            position: relative;
-            color: greenyellow;
-            font-size: 3rem;
-            z-index: 1;
-         right: -320px;
-         bottom: -180px;
-        }
-
 
       /* fim */
 
