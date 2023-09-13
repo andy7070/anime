@@ -6,6 +6,9 @@
     <title>AI No Idenshi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="pc.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script type="text/javascript"  src="js.js" defer></script>
     <script type="text/javascript" src="desktop.js" defer></script>
 
@@ -427,41 +430,75 @@
           </section>
           
              <section id="recom-mobile-content">
-                  <h3>Recomendados</h3>
-              
-                <div id="wrapper">
-                    <button class="button-slid left" id="left"><ion-icon name="chevron-back-outline"></ion-icon></button>
-                    <button class="button-slid right" id="right"><ion-icon name="chevron-forward-outline"></ion-icon></button>
-                  <div id="slid-wrapper">
-                      <div id="slid-list">
-                          <div id="slid-item">
-                                 <div id="slid-content">
-                                               <img src="imagem/52edb7a843abacb4ff0f642c8eda1440.jpe" alt="">
-                                                <div id="slid-description">
-                                                 <h4>Bleach</h4>
-                                                </div>
-                                           </div>
-                                         </div>
-                                        <div id="slid-item">
-                                         <div id="slid-content">
-                                          <img src="imagem/Fairy-Tail-2.jpg" alt="">
-                                           <div id="slid-description">
-                                            <h4>Fairy Tail</h4>
-                                    </div>
-                                   </div>
-                               </div>
-                     <div id="slid-item">
-                        <div id="slid-content">
-                                      <img src="imagem/beelzebub_t49960_2.jpg" alt="">
-                                       <div id="slid-description">
-                                        <h4>Beelzebub</h4>
-                                       </div>
-                                      </div>
-                                      </div>
-                        
-                      </div>
+                  <div id="slid-recom">
+                      <h3>Recomendados</h3>
                   </div>
-
+              
+                  <div class="wrapper">
+                    <div class="slide-wrapper" data-slide="wrapper">
+                        <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+                        <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+                        <div class="slide-list" data-slide="list">
+                            <div class="slide-item" data-slide="item" data-index="0">
+                                <div class="slide-content">
+                                  <a href="#"><img class="slide-image" src="imagem/52edb7a843abacb4ff0f642c8eda1440.jpe" alt="Bleach"></a>
+                                    <div class="slide-description">
+                                        <h3>Bleach</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="1">
+                                <div class="slide-content">
+                                    <a href="#"><img class="slide-image" src="imagem/Fairy-Tail-2.jpg" alt="Fairy Tail"></a>
+                                    <div class="slide-description">
+                                        <h3>fairy Tail</h3>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="2">
+                                <div class="slide-content">
+                                    <a href="#"><img class="slide-image" src="imagem/beelzebub_t49960_2.jpg" alt="Beelzebub"></a>
+                                    <div class="slide-description">
+                                        <h3>Beelzebub</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="3">
+                                <div class="slide-content">
+                                   <a href="#"><img src="imagem/01ec367b44f0a568430a957e042639af.jpe" class="slide-image"  alt="Naruto"></a>
+                                    <div class="slide-description">
+                                        <h3>Naruto</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="4">
+                                <div class="slide-content">
+                                   <a href="#"><img src="imagem/f154230aab3191aba977f337d392f812.jpe" class="slide-image"  alt="One Piece"></a>
+                                    <div class="slide-description">
+                                        <h3>One Piece</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="4">
+                                <div class="slide-content">
+                                   <a href="#"><img src="imagem/imagem_2022_07_25_185343600__1bj4u6t0v.png" class="slide-image"  alt="Boku no Hero Academia"></a>
+                                    <div class="slide-description">
+                                        <h3>Boku no Hero Academia</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                           
+                        </div>
+                        <div class="slide-controls" data-slide="controls-wrapper"></div>
+                        </div>
+                    </div>
                 </div>
                 
 
@@ -488,7 +525,16 @@
      
 
 
+    <script src="slides.js"></script>
     
+           <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: -1,
+            timeInterval: 3000
+        })
+    </script>
+  
 
 <script src="js.js"></script>
 </body>

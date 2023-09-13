@@ -54,26 +54,6 @@ function clickMenu(){
     
   }
 
- 
-  const slidwrapper = document.querySelectorAll('#slid-wrapper')
-  const slid = document.querySelectorAll('#slid-content img')
-  const nextButton = document.getElementById('right')
-  const slidItem = document.querySelectorAll('.slid-item')
-  const slidlist = document.getElementById('slid-list')
-  const slidcontent = document.getElementById('slid-content')
 
 
-  let contador = 0
-
-
-
-nextButton.addEventListener('click', function(){
-  contador = contador - 190
-    
-  if(contador == slidlist.length - 1){
-   contador = 0
-  } else{
-   slidlist.style = `transform: translateX(${contador}px)`
-  }
-})
 

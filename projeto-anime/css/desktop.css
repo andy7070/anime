@@ -843,7 +843,7 @@ color: white;
             
             .slide-wrapper{
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             flex-direction: column;
             overflow: hidden;
             width: 100%;
