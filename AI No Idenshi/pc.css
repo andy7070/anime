@@ -783,12 +783,25 @@ display: none;
  #recomendados-mobile{
  display: none;
 }
+#recom-mobile-content{
+display: none;
+}
 
+#final-mobile-content{
+display: none;
+}
 
     /* telas com até 768px */
 
     @media screen and (max-width: 768px) {
          /*seçao de imagens recomendadas da versao mobile */
+         #recom-mobile-content{
+            display: block;
+            }
+            
+            #final-mobile-content{
+            display: block;
+            }
 
         #recomendados-mobile{
             display: block;
@@ -800,7 +813,83 @@ display: none;
           margin: 10px 0;
         
         }
+
+        /*seçao de recomendados mobile */
+          
+         #wrapper{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         overflow: hidden;
+        }
+        #slid-wrapper{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+          overflow: hidden;
+         width: 100%;
+        }
+
+        #slid-item{
+         margin-top: 10px;
+        }
+
+
+        #slid-list{
+       display: flex;
+       justify-content: space-between;
+         position: relative;
        
+        }
+
+        #slid-content img{
+         width: 180px;
+         height: 300px;
+        }
+         
+        #slid-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 0 5px;
+        }
+
+        #slid-description{
+         position: absolute;
+         bottom: 0;
+         background: linear-gradient(to top, #000, transparent);
+         width: 100%;
+         
+        }
+        #slid-description h4{
+          color: white;
+          text-align: center;
+           position: relative;
+           padding: 10px 0;
+        }
+        #recom-mobile-content h3{
+         text-align: center;
+         margin: 15px 0;
+         color: greenyellow;
+        }
+
+        .button-slid{
+         position: absolute;
+         z-index: 1;
+        background: transparent;
+        color: greenyellow;
+        }
+        .button-slid ion-icon{
+        font-size: 3rem;
+        }
+
+        .right{
+         right: 10px;
+        }
+        .left{
+        left: 6px;
+        }
 
       /* fim */
 
