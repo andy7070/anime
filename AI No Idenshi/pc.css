@@ -737,10 +737,10 @@ font-size: 1rem;
 
     /* iframes */
 
-  .iframe{
-    position: fixed;
+  #frames{
+    position: relative;
     z-index: 10;
-    height: 30vw;
+    height: 20vw;
     left: 22vw;
     top: calc(20vh - 58.5vw);
     width: 30vw;
@@ -1396,7 +1396,7 @@ display: none;
                 font-size: 1.2rem;
                  text-align: justify;}
 
-                 iframe{
+                 #frames{
                     position: absolute;
                     z-index: 10;
                     height: 50vw;
