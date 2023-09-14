@@ -1424,7 +1424,104 @@ display: none;
                      top: 280px;
                      z-index: 10;
                     }
-                
+
+                    /* telas com  até 992px */
+
+                    @media screen and (min-width: 769px) and (max-width: 992px)  {
+
+                        #animes_pc{
+                            display: none;
+                           }
+                   
+                           .cadastro{
+                            display: none;
+                           }
+                   
+                           .botao-header{
+                            padding: 0 30px;
+                            font-size: 3rem;
+                            color: greenyellow;
+                           }
+
+                           /* conteúdo da pagina junto com as sinopses */
+               
+                           #conteudo_pc{
+                            display: block;
+                            background: transparent;
+                            width: 95vw;
+                           }
+
+                           .pagina-h31{
+                           right: 30px;
+                        }
+                           .pagina-h32{
+                           right: 45px;  
+                        }
+                        .pagina-h3{
+                          right: 42px;
+                        }
+
+                         .trailer{
+                         right: 25px;
+                        }
+                        .descriçao_pagina h3{
+                          left: -40px;
+                          position: relative;
+                        }
+
+                        .descriçao_pagina h4{
+                          position: relative;
+                          left: -45px;
+                        }
+                        .descriçao_pagina h5{
+                         position: relative;
+                         left: -45px;
+                        }
+
+                        .sinopse{
+                            text-align: center;
+                        width: 100%;
+                        padding: 10px 10px;
+                       
+                        }
+                      
+
+                           
+                               /*fim */
+
+
+                          .seçao-recomendados{
+                          display: none;
+                       } 
+                       
+                       .episodios{
+                        display: none;
+                       }
+                          
+                       .coment-logar{
+                        display: none;
+                       }
+                        .form{
+                        display: none;
+                       }
+                       .final{
+                        display: none;
+                       }
+
+                       /* seçao header */
+
+                       header{
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      width: 100vw;
+                    }
+                    .botao-header{
+                    cursor: pointer;
+                    }
+
+                   
+                }
     
     
     
