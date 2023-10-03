@@ -59,42 +59,32 @@ let a = 0
 
 
 
-seta.addEventListener('click', function() {
-  if(abrirFechar.style.display == 'none'){
-     abrirFechar.style.display = 'block'
-  } else{
-  abrirFechar.style.display = 'none'
-  }
-   if(seta.style.transform == 'rotate(0deg)'){
-    seta.style.transform = 'rotate(180deg)'
-  } else {
-   seta.style.transform = 'rotate(0deg)'
-  }
-})
 
 teste2.addEventListener('click', function(){
-  frames.style.display = 'block'
-  setafechar.style.display = 'block'
+    
+   if(frames.style.display == 'block'){
+     frames.style.display = 'none'
+   }else {
+    frames.style.display = 'block'
+   }
+   frames.style.position = 'fixed'
+     
+   if (frames.style.display == 'block'){
+    teste.style.background = 'rgba(0,0,0,10)'
+   }else if(frames.style.display == 'none'){
+     teste.style.background = '#1b1f35'
+   }
 })
 
 
 
 
 
-clickTrailer.addEventListener('click', function(){
-frames.style.display = 'block'
-
-})
 
 
 
-fechartrailer.addEventListener('click', function(){
- frames.style.display = 'none'
- setafechar.style.display = 'none'
 
- 
-}
-)
+
 
 
 
