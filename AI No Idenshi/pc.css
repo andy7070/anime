@@ -534,7 +534,7 @@ display: none;
            .img-animes{
            display: flex;
            height: 400px;
-           margin: 50px 50px;
+           margin: 75px 50px;
            border: 2px solid transparent;
            width: 280px;
            box-shadow: 1px 2px  10px greenyellow;
@@ -544,17 +544,22 @@ display: none;
                display: flex;
                justify-content: space-between;
            }
+
+          
            
            .detalhes h5{
-           margin: 1px 40px;
+           margin: -10px 40px;
            color: white;}
            
            #trailer{
            display: flex;
-           justify-content: flex-end;}
+           justify-content: flex-end;
+         position: relative;
+         bottom: -130px;
+                        }
            
            #trailer h3{
-           margin: 5px 30px;
+            margin: 0px 30px;
            border: 2px solid greenyellow;
            width: 80px;
            text-align: center;
