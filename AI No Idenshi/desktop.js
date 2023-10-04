@@ -58,6 +58,8 @@ teste2.addEventListener('click', function(){
      frames.style.display = 'none'
    }else {
     frames.style.display = 'block'
+     frames.style.opacity = 1
+     
    }
    frames.style.position = 'fixed' 
    if (frames.style.display == 'block'){
@@ -65,7 +67,9 @@ teste2.addEventListener('click', function(){
    }else if(frames.style.display == 'none'){
      teste.style.background = '#1b1f35'
    }
-
+   teste.style.transition = '1s'
+   frames.style.transition = 'opacity 5s ease'
+   
 })
 
  function fechar_trailer(){

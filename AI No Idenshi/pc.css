@@ -670,7 +670,7 @@ display: none;
                .ion{
                 font-size: 1.2rem;
                  text-align: justify;}
-
+             
                  #frames{
                     position: absolute;
                     z-index: 10;
@@ -681,8 +681,9 @@ display: none;
                     background-color: rgb(26, 26, 26);
                     border-radius: 20px;
                     display: flex;
-                    transition: .7s;
                     display: none;
+                    opacity: 0;
+                    transition: opacity 1s;
                     }
 
 
